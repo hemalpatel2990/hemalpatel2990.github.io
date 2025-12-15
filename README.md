@@ -98,7 +98,7 @@ Changes go live in 1-2 minutes.
 
 ## Resume
 
-Latest resume available at: `/assets/Hemal_Resume_2025.pdf`
+Latest resume available at: `/assets/Hemal-SeniorProgrammer-Resume.pdf`
 
 ## Contact
 

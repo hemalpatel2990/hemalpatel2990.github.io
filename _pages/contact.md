@@ -13,7 +13,7 @@ Feel free to reach out via email or connect with me on LinkedIn. I'm open to dis
 
 - Multiplayer systems architecture
 - Engine optimization opportunities
-- Technical leadership roles
+- Senior roles
 - Contract/consulting work
 - Mentorship and collaboration
 
@@ -39,4 +39,4 @@ Feel free to reach out via email or connect with me on LinkedIn. I'm open to dis
 
 ## Download Resume
 
-[Download PDF Resume](/assets/Hemal_Resume_2025.pdf)
+[Download PDF Resume](/assets/Hemal-SeniorProgrammer-Resume.pdf)
