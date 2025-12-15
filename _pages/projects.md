@@ -12,10 +12,36 @@ toc_icon: "briefcase"
 
 A showcase of my professional work across multiplayer systems, engine optimization, and custom tooling.
 
+<div class="project-thumbnails">
+  <div class="project-thumb-card">
+    <a href="#wavexr">
+      <img src="/assets/images/wavexr-thumb.jpg" alt="WaveXR">
+      <h3>WaveXR</h3>
+      <p>2019-2025</p>
+    </a>
+  </div>
+  <div class="project-thumb-card">
+    <a href="#razor-edge-games">
+      <img src="/assets/images/razor-thumb.jpg" alt="Razor Edge Games">
+      <h3>Razor Edge Games</h3>
+      <p>2015-2020</p>
+    </a>
+  </div>
+  <div class="project-thumb-card">
+    <a href="#smartcloud-infotech">
+      <img src="/assets/images/smartcloud-thumb.jpg" alt="Smartcloud Infotech">
+      <h3>Smartcloud Infotech</h3>
+      <p>2014-2015</p>
+    </a>
+  </div>
+</div>
+
 ---
 
 ## WaveXR
 {: #wavexr}
+
+![WaveXR](/assets/images/wavexr-thumb.jpg){: .align-center}
 
 **Software Engineer II (Senior Gameplay/Systems Focus)**  
 **Nov 2019** - **Dec 2025** | **Remote**
@@ -37,12 +63,6 @@ Mission-critical social infrastructure enabling real-time, persistent multiplaye
 - Led cross-functional team to successful integration and adoption as foundational platform system
 - Designed scalable architecture supporting thousands of concurrent users
 
-**Technical Highlights:**
-- Server-authoritative state management
-- Real-time synchronization across distributed clients
-- Low-latency network optimization
-- Robust error handling and recovery systems
-
 **Technologies:** Unreal Engine 4/5, C++, Multiplayer Networking, State Synchronization, Dedicated Servers
 
 ---
@@ -60,13 +80,6 @@ Comprehensive engine-level refactoring resulting in dramatic performance improve
 - Refactored rendering pipeline for improved frame rates
 - Applied data-driven optimization using Unreal Insights profiling tools
 - Identified and eliminated critical performance bottlenecks
-
-**Technical Highlights:**
-- Memory pool optimization and object lifecycle management
-- Rendering system refactoring
-- Multi-threaded system improvements
-- GPU performance optimization
-- Profiling and metrics-driven development
 
 **Technologies:** Unreal Engine, C++, Unreal Insights, Performance Profiling Tools
 
@@ -87,13 +100,6 @@ Proprietary editor extensions that dramatically improved art and design team wor
 - Created automated asset pipeline tools reducing manual errors
 - Cross-discipline collaboration to identify workflow pain points
 - Quantifiable productivity improvements across art team
-
-**Technical Highlights:**
-- Unreal Editor extension development
-- Custom slate UI components
-- Python scripting for automation
-- Asset validation and processing pipelines
-- Editor utility widgets and blueprints
 
 **Technologies:** Unreal Editor Extensions, C++, Python, Editor Scripting, Slate UI
 
@@ -116,13 +122,6 @@ Led technical implementation during critical engine transition while maintaining
 - Zero production downtime during transition period
 - Mentored team on Unreal Engine best practices
 
-**Technical Highlights:**
-- Engine architecture translation (Unity → Unreal)
-- Custom Niagara VFX systems
-- Subsystem design patterns
-- Performance optimization during migration
-- Team knowledge transfer
-
 **Technologies:** Unreal Engine 5, Unity, C++, C#, Niagara VFX, Blueprint
 
 **Impact:** Unlocked next-generation rendering capabilities while maintaining stability
@@ -143,13 +142,6 @@ Seamless integration of backend services with robust, low-latency gameplay syste
 - Designed fault-tolerant systems with graceful degradation
 - Implemented robust authentication and session management
 
-**Technical Highlights:**
-- REST API integration
-- WebSocket real-time communication
-- Cross-platform data synchronization
-- Dedicated server architecture
-- Session management and persistence
-
 **Technologies:** Unreal Engine, C++, REST APIs, WebSockets, Dedicated Servers
 
 ---
@@ -168,13 +160,6 @@ Full-stack feature development for critical rapid-response initiatives outside p
 - Delivered critical features on accelerated timelines
 - Operated independently with minimal dependencies
 
-**Technical Highlights:**
-- Full-stack development (Client + Server)
-- Rapid iteration and prototyping
-- Stakeholder communication and demos
-- Agile feature delivery
-- Self-directed problem solving
-
 **Technologies:** Unreal Engine, C++, Backend APIs, UI Systems, Blueprint
 
 **Impact:** Enabled product team to validate ideas quickly and pivot based on real prototypes
@@ -183,6 +168,8 @@ Full-stack feature development for critical rapid-response initiatives outside p
 
 ## Razor Edge Games
 {: #razor-edge-games}
+
+![Razor Edge Games](/assets/images/razor-thumb.jpg){: .align-center}
 
 **Contract Unity Programmer**  
 **Nov 2015** - **Feb 2020** | **Remote**
@@ -199,19 +186,14 @@ Contributed substantially to game engine codebase for turn-based strategy game, 
 - Resolved critical bugs using Visual Studio debugging tools
 - Enhanced system-level functionality and architecture
 
-**Technical Highlights:**
-- Turn-based combat state machine
-- Inventory management with persistence
-- Character stats and progression systems
-- Save/load system implementation
-- AI behavior for NPC combatants
-
 **Technologies:** Unity, C#, Game Design Patterns, Object-Oriented Programming
 
 ---
 
 ## Smartcloud Infotech Pvt. Ltd.
 {: #smartcloud-infotech}
+
+![Smartcloud Infotech](/assets/images/smartcloud-thumb.jpg){: .align-center}
 
 **Unity Developer**  
 **Jun 2014** - **Mar 2015** | **Pune, India**
@@ -233,12 +215,5 @@ Shipped multiple commercial interactive applications with direct client collabor
 - Provided accurate project estimations and timeline planning
 - Implemented and iteratively refined UI/UX based on client feedback
 - Suggested process improvements for development workflow
-
-**Technical Highlights:**
-- Complete project lifecycle (requirements → deployment)
-- Client communication and expectation management
-- Iterative development with feedback loops
-- Cross-platform mobile development
-- UI/UX implementation and polish
 
 **Technologies:** Unity, C#, Mobile Development (iOS/Android), UI Design
