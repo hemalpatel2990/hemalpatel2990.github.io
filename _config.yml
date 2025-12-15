@@ -132,7 +132,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-# Custom CSS
-head_scripts:
-  - /assets/css/custom.scss
