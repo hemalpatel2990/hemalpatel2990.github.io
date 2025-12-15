@@ -44,6 +44,18 @@ Proven track record of delivering high-impact features for live-service products
 
 ---
 
+## Core Competencies
+
+- Technical Leadership & Mentorship
+- Cross-Functional Collaboration
+- Problem Solving & Debugging
+- Performance Engineering
+- System Architecture Design
+- Rapid Prototyping
+- Adaptability in Fast-Paced Environments
+
+---
+
 ## Experience Highlights
 
 ### WaveXR (Nov 2019 - Dec 2025)
@@ -72,7 +84,7 @@ Shipped 4 commercial interactive applications. Consulted with clients on project
 ## Education
 
 **Master of Science in Computer Game Programming**  
-DePaul University | 2019
+DePaul University | Online | Coursework Complete (Capstone Pending)
 
 **Master of Business Administration**  
 Information Technology & Project Management  
@@ -80,15 +92,3 @@ CEPT University, India | 2014
 
 **Bachelor of Technology in Information Technology**  
 Gujarat Technological University, India | 2012
-
----
-
-## Core Competencies
-
-- Technical Leadership & Mentorship
-- Cross-Functional Collaboration
-- Problem Solving & Debugging
-- Performance Engineering
-- System Architecture Design
-- Rapid Prototyping
-- Adaptability in Fast-Paced Environments
