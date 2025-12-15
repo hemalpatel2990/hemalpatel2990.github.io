@@ -132,14 +132,4 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-# Site Navigation
-main:
-  - title: "Home"
-    url: /
-  - title: "Projects"
-    url: /projects/
-  - title: "About"
-    url: /about/
-  - title: "Contact"
-    url: /contact/
+      
