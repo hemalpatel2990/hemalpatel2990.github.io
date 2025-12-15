@@ -47,7 +47,7 @@ Feel free to reach out via email or connect with me on LinkedIn. I'm open to dis
 
 ## **Folder Structure Summary**
 ```
-hemalpatel.github.io/
+hemalpatel2990.github.io/
 ├── _pages/
 │   ├── about.md
 │   ├── projects.md
