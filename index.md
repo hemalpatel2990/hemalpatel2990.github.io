@@ -8,7 +8,7 @@ header:
     - label: "View Projects"
       url: "/projects/"
     - label: "Download Resume"
-      url: "/assets/Hemal_Resume_2025.pdf"
+      url: "/assets/Hemal-SeniorProgrammer-Resume.pdf"
     - label: "Contact Me"
       url: "/contact/"
 excerpt: |
