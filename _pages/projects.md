@@ -17,7 +17,8 @@ A showcase of my professional work across multiplayer systems, engine optimizati
 ## WaveXR
 {: #wavexr}
 
-**Software Engineer II (Senior Gameplay/Systems Focus)** **Nov 2019 - Dec 2025 | Remote**
+**Software Engineer II (Senior Gameplay/Systems Focus)**  
+**Nov 2019** - **Dec 2025** | **Remote**
 
 Led mission-critical multiplayer systems and editor tools development for a live-service VR platform. Operated as both technical lead and solo engineer on rapid-response initiatives, focusing on architectural leadership for social systems, deep engine-level optimization, and the creation of developer-facing tools to accelerate art pipelines.
 
@@ -183,7 +184,8 @@ Full-stack feature development for critical rapid-response initiatives outside p
 ## Razor Edge Games
 {: #razor-edge-games}
 
-**Contract Unity Programmer** **Nov 2015 - Feb 2020 | Remote**
+**Contract Unity Programmer**  
+**Nov 2015** - **Feb 2020** | **Remote**
 
 Contributed substantially to game engine codebase for turn-based strategy game, focusing on system-level functionality and core gameplay mechanics.
 
@@ -211,7 +213,8 @@ Contributed substantially to game engine codebase for turn-based strategy game, 
 ## Smartcloud Infotech Pvt. Ltd.
 {: #smartcloud-infotech}
 
-**Unity Developer** **Jun 2014 - Mar 2015 | Pune, India**
+**Unity Developer**  
+**Jun 2014** - **Mar 2015** | **Pune, India**
 
 Shipped multiple commercial interactive applications with direct client collaboration and iterative development.
 
