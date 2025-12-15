@@ -15,21 +15,21 @@ A showcase of my professional work across multiplayer systems, engine optimizati
 <div class="project-thumbnails">
   <div class="project-thumb-card">
     <a href="#wavexr">
-      <img src="/assets/images/wavexr-thumb.jpg" alt="WaveXR">
+      <img src="/assets/images/wavexr-thumb.png" alt="WaveXR">
       <h3>WaveXR</h3>
       <p>2019-2025</p>
     </a>
   </div>
   <div class="project-thumb-card">
     <a href="#razor-edge-games">
-      <img src="/assets/images/razor-thumb.jpg" alt="Razor Edge Games">
+      <img src="/assets/images/razor-thumb.png" alt="Razor Edge Games">
       <h3>Razor Edge Games</h3>
       <p>2015-2020</p>
     </a>
   </div>
   <div class="project-thumb-card">
     <a href="#smartcloud-infotech">
-      <img src="/assets/images/smartcloud-thumb.jpg" alt="Smartcloud Infotech">
+      <img src="/assets/images/smartcloud-thumb.png" alt="Smartcloud Infotech">
       <h3>Smartcloud Infotech</h3>
       <p>2014-2015</p>
     </a>
@@ -41,7 +41,7 @@ A showcase of my professional work across multiplayer systems, engine optimizati
 ## WaveXR
 {: #wavexr}
 
-![WaveXR](/assets/images/wavexr-thumb.jpg){: .align-center}
+![WaveXR](/assets/images/wavexr-thumb.png){: .align-center}
 
 **Software Engineer II (Senior Gameplay/Systems Focus)**  
 **Nov 2019** - **Dec 2025** | **Remote**
@@ -169,7 +169,7 @@ Full-stack feature development for critical rapid-response initiatives outside p
 ## Razor Edge Games
 {: #razor-edge-games}
 
-![Razor Edge Games](/assets/images/razor-thumb.jpg){: .align-center}
+![Razor Edge Games](/assets/images/razor-thumb.png){: .align-center}
 
 **Contract Unity Programmer**  
 **Nov 2015** - **Feb 2020** | **Remote**
@@ -193,7 +193,7 @@ Contributed substantially to game engine codebase for turn-based strategy game, 
 ## Smartcloud Infotech Pvt. Ltd.
 {: #smartcloud-infotech}
 
-![Smartcloud Infotech](/assets/images/smartcloud-thumb.jpg){: .align-center}
+![Smartcloud Infotech](/assets/images/smartcloud-thumb.png){: .align-center}
 
 **Unity Developer**  
 **Jun 2014** - **Mar 2015** | **Pune, India**
