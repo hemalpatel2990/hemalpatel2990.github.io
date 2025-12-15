@@ -250,22 +250,3 @@ Shipped multiple commercial interactive applications with direct client collabor
 - UI/UX implementation and polish
 
 **Technologies:** Unity, C#, Mobile Development (iOS/Android), UI Design
-
----
-
-## Technical Summary
-
-### Languages
-C++, C#, Lua, Python
-
-### Engines & Tools
-Unreal Engine 4/5, Unity, Perforce, Git, Visual Studio, Rider, VSCode, JIRA, Unreal Insights
-
-### Specializations
-- Server-Authoritative Multiplayer Systems
-- Performance Optimization & Profiling
-- Custom Editor Tools & Pipeline Development
-- Engine Migrations & Transitions
-- Full-Stack Gameplay Development
-- Rapid Prototyping
-- Technical Leadership & Mentorship
