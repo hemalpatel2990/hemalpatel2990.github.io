@@ -66,21 +66,6 @@ feature_row:
   </div>
 </div>
 
-<div class="highlights-section" style="margin-bottom: 3rem;">
-  <h2>Career Highlights</h2>
-  <ul class="highlight-list">
-    <li>
-      <strong>WaveXR (2019-2025):</strong> Led multiplayer systems architecture, delivered <strong>80%+ performance gains</strong>, and reduced workflows <strong>by 30%</strong> via custom tools.
-    </li>
-    <li>
-      <strong>Technical Leadership:</strong> Spearheaded <strong>Nexus social system</strong>, led <strong>Unity to Unreal</strong> migration, and mentored developers on scalable design.
-    </li>
-    <li>
-      <strong>Full-Stack Capabilities:</strong> Delivered end-to-end gameplay, UI, and backend features as a <strong>solo engineer</strong> on rapid projects.
-    </li>
-  </ul>
-</div>
-
 <h2 style="text-align: center; margin: 4rem 0 2rem 0;">Featured Projects</h2>
 
 {% include feature_row %}

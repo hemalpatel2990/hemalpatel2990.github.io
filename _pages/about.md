@@ -56,31 +56,6 @@ Proven track record of delivering high-impact features for live-service products
 
 ---
 
-## Experience Highlights
-
-### WaveXR (Nov 2019 - Dec 2025)
-**Software Engineer II - Senior Gameplay/Systems Focus**
-
-Led mission-critical multiplayer systems and editor tools development for live-service VR platform. Functioned as solo engineer on rapid-response initiatives, delivering full-stack features outside primary roadmap.
-
-**Major Achievements:**
-- Spearheaded Nexus social system from concept to production
-- Achieved 80%+ performance gains through engine-level optimization
-- Reduced art team workflow time by 30% with custom editor tools
-- Successfully led Unity to Unreal Engine migration
-
-### Razor Edge Games (Nov 2015 - Feb 2020)
-**Contract Unity Programmer**
-
-Engineered core turn-based gameplay mechanics and inventory systems. Resolved critical bugs and enhanced system-level functionality.
-
-### Smartcloud Infotech (Jun 2014 - Mar 2015)
-**Unity Developer**
-
-Shipped 4 commercial interactive applications. Consulted with clients on project scope and provided accurate estimations.
-
----
-
 ## Education
 
 **Master of Science in Computer Game Programming**  
