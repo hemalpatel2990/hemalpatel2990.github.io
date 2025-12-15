@@ -1,0 +1,155 @@
+---
+---
+
+// Custom styles for Hemal Patel portfolio
+// This overrides Minimal Mistakes theme
+
+// Stats Section
+.stats-section {
+  padding: 4rem 1rem;
+  background: #0f0f1e;
+  margin: 3rem 0;
+  
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #ffffff;
+  }
+}
+
+.stats-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.stat-card {
+  background: #1a1a2e;
+  padding: 2.5rem 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s, border-color 0.3s;
+  border: 1px solid #2a2a3e;
+  
+  &:hover {
+    transform: translateY(-5px);
+    border-color: #4a9eff;
+  }
+}
+
+.stat-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4a9eff;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 1rem;
+  color: #8892b0;
+}
+
+// Highlights Section
+.highlights-section {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.highlight-card {
+  background: #1a1a2e;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  border-left: 4px solid #4a9eff;
+  
+  h3 {
+    color: #4a9eff;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  p {
+    color: #a8b2d1;
+    line-height: 1.7;
+    font-size: 1.1rem;
+    margin: 0;
+  }
+  
+  strong {
+    color: #ffffff;
+  }
+}
+
+// Hero Section Improvements
+.page__hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  
+  .page__hero-caption {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+  }
+}
+
+.page__lead {
+  font-size: 1.25rem;
+  line-height: 1.8;
+}
+
+// Button Improvements
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s;
+  
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+// Mobile Responsive
+@media (max-width: 768px) {
+  .stats-section h2,
+  .highlights-section h2 {
+    font-size: 2rem;
+  }
+  
+  .stat-card {
+    padding: 2rem 1rem;
+  }
+  
+  .stat-number {
+    font-size: 2rem;
+  }
+  
+  .highlight-card {
+    padding: 1.5rem;
+    
+    h3 {
+      font-size: 1.25rem;
+    }
+    
+    p {
+      font-size: 1rem;
+    }
+  }
+}
