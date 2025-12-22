@@ -9,9 +9,7 @@ author_profile: true
 
 ## Professional Summary
 
-Senior Software Engineer with 11+ years of experience specializing in multiplayer systems architecture and game engine development. Expert in Unreal Engine internals, server-authoritative networking, and building developer tools that scale.
-
-Proven track record of delivering high-impact features for live-service products while mentoring junior developers and driving technical excellence. Adept at operating in lean, fast-paced startup environments with a history of end-to-end feature ownership.
+Software Engineer with extensive experience building server-authoritative multiplayer systems and custom Unreal and Unity editor tools. Proven record of delivering high-impact features for live-service products, including optimizing core systems for 80%+ performance gains and reducing art workflows by 30%. Strong background in Unreal Engine internals, multiplayer networking, and engine transitions, with a collaborative, mentorship-driven approach. Adept at operating in lean, fast-paced startup environments with a history of end-to-end feature ownership.
 
 ---
 
@@ -27,16 +25,19 @@ Proven track record of delivering high-impact features for live-service products
 - **Unity** (Advanced) - 9+ years production experience
 
 ### Core Specializations
+- Gameplay Systems & Physics
 - Multiplayer Networking & State Synchronization
+- Online Game Development
 - Server-Authoritative Systems Architecture
 - Performance Optimization & Profiling
 - Custom Editor Tools & Pipeline Development
-- UI Systems & Framework Development
+- UI Systems & Framework Development (MVVM)
 - Full-Stack Gameplay Development
 - Engine Transitions & Migrations
 
 ### Tools & Technologies
 - **Version Control:** Perforce, Git/GitHub
+- **Automation:** BuildGraph, Custom Automation Tools
 - **IDEs:** Visual Studio, Rider, VSCode
 - **Project Management:** JIRA
 - **Profiling:** Unreal Insights, Visual Studio Profiler

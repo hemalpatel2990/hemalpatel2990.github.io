@@ -50,6 +50,25 @@ Led mission-critical multiplayer systems and editor tools development for a live
 
 ---
 
+### Technical Leadership & Code Quality
+{: #tech-leadership}
+
+**Role:** Technical Lead & Mentor
+
+Fostered a culture of technical excellence through mentorship, rigorous code reviews, and establishing high architectural standards.
+
+**Key Achievements:**
+- Provided technical guidance and mentorship to multiple developers on creating scalable interaction systems
+- Enforced high architectural standards through rigorous peer reviews, reducing technical debt
+- Established and maintained team coding guidelines, ensuring adherence to SOLID principles
+- Conducted daily code reviews to maintain performance budgets and code quality
+
+**Technologies:** C++, Unreal Engine, Perforce, JIRA, SOLID Principles
+
+**Impact:** Improved team-wide code quality, accelerated developer onboarding, and ensured long-term project maintainability.
+
+---
+
 ### Nexus Social System
 {: #nexus-social-system}
 
@@ -176,17 +195,38 @@ Full-stack feature development for critical rapid-response initiatives outside p
 
 Contributed substantially to game engine codebase for turn-based strategy game, focusing on system-level functionality and core gameplay mechanics.
 
-### Turn-Based RPG Systems
-{: #turn-based-rpg}
+---
+
+### Core Gameplay Engineering
+{: #razor-edge-gameplay}
+
+**Role:** Gameplay Programmer
+
+Engineered and supported core gameplay systems for a large-scale, open-world RPG.
 
 **Key Achievements:**
-- Engineered core turn-based combat mechanics with initiative system
-- Designed and implemented inventory and item management systems
-- Developed character progression and skill tree systems
-- Resolved critical bugs using Visual Studio debugging tools
-- Enhanced system-level functionality and architecture
+- Engineered gameplay loops for turn-based combat, inventory, and survival mechanics
+- Implemented custom logic for dynamic boss encounters and persistent player tracking
+- Contributed to a major DLC release by diagnosing and fixing critical gameplay bugs
+- Maintained technical design documentation to ensure project transparency and smooth handoffs
 
-**Technologies:** Unity, C#, Game Design Patterns, Object-Oriented Programming
+**Technologies:** Unity, C#, Visual Studio
+
+---
+
+### Tools & Pipeline Integration
+{: #razor-edge-tools}
+
+**Role:** Tools & Systems Programmer
+
+Integrated third-party technologies and built custom tools to improve content creation pipelines.
+
+**Key Achievements:**
+- Led the integration of open-source hair/fur simulation and holographic UI shaders
+- Troubleshot complex mesh-to-spline data format conflicts during integration
+- Created custom internal tools that streamlined the content pipeline for artists and designers
+
+**Technologies:** Unity, C#, Content Pipeline Automation
 
 ---
 
