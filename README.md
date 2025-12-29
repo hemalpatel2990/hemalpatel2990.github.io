@@ -2,7 +2,7 @@
 
 Personal portfolio website showcasing game development experience, projects, and technical skills.
 
-🔗 **Live Site:** [hemalpatel.github.io](https://hemalpatel.github.io)
+🔗 **Live Site:** [hemalpatel2990.github.io](https://hemalpatel2990.github.io)
 
 ## About
 
