@@ -257,3 +257,41 @@ Shipped multiple commercial interactive applications with direct client collabor
 - Suggested process improvements for development workflow
 
 **Technologies:** Unity, C#, Mobile Development (iOS/Android), UI Design
+
+---
+
+# Personal Projects
+
+Independent initiatives and open-source contributions.
+
+<div class="project-thumbnails">
+  <div class="project-thumb-card">
+    <a href="#universal-data-sync">
+      <img src="/assets/images/universal-data-sync-thumb.svg" alt="Universal Data Sync">
+      <h3>Universal Data Sync</h3>
+      <p>2025</p>
+    </a>
+  </div>
+</div>
+
+---
+
+## Universal Data Sync
+{: #universal-data-sync}
+
+![Universal Data Sync](/assets/images/universal-data-sync-thumb.svg){: .align-center}
+
+**Open Source Tool for Unreal Engine**  
+**Dec 2025** | **NeoNexus Studios**
+
+A high-performance networking solution for Unreal Engine designed to solve the challenge of replicating arbitrary data structures without custom C++ code.
+
+**Key Features:**
+- **Dynamic Struct Replication:** Replicate any `USTRUCT` marked as `BlueprintType` without modifying C++ source
+- **Fast Array Serialization:** Built on `FFastArraySerializer` for minimized bandwidth usage
+- **Type Safety:** Optional schema enforcement to restrict keys or values to specific types
+- **Event-Driven:** dedicated events for key addition, updates, and removal for responsive UI
+
+**Technologies:** Unreal Engine, C++, Networking, Replication, FastArraySerializer
+
+**Repository:** [UniversalDataSync](https://github.com/hemalpatel2990/UniversalDataSync)
