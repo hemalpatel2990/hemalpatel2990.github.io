@@ -132,4 +132,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+# Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-TMB7WW66E6" # Replace with your GA4 Measurement ID (e.g., G-12345678)
+    anonymize_ip: true
       
