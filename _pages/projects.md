@@ -131,7 +131,7 @@ Proprietary editor extensions that dramatically improved art and design team wor
 
 **Role:** Core Systems Engineer
 
-Led technical implementation during critical engine transition while maintaining feature parity and zero downtime.
+Helped the team with the transition from Unity to Unreal while maintaining feature parity and zero downtime.
 
 **Key Achievements:**
 - Architected and implemented core interaction systems in Unreal Engine 5
