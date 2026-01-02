@@ -1,6 +1,6 @@
 # Site Settings
 title: "Hemal Patel"
-subtitle: "Senior Software Engineer"
+subtitle: "Senior Gameplay Engineer"
 name: "Hemal Patel"
 description: "Senior Software Engineer with 11+ years of experience specializing in multiplayer systems, Unreal Engine, Unity, and custom editor tools."
 url: "https://hemalpatel2990.github.io"
@@ -15,7 +15,7 @@ minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon
 author:
   name: "Hemal Patel"
   avatar: "/assets/images/bio-photo.jpg" # Add your photo later
-  bio: "Senior Software Engineer specializing in multiplayer systems, Unreal Engine, and performance optimization."
+  bio: "Senior Gameplay Engineer specializing in multiplayer systems, Unreal Engine, and performance optimization."
   location: "Remote"
   email: "hemalpatel2990@hotmail.com"
   links:
