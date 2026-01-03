@@ -69,3 +69,38 @@ feature_row:
 <h2 style="text-align: center; margin: 4rem 0 2rem 0;">Featured Projects</h2>
 
 {% include feature_row %}
+
+<h2 style="text-align: center; margin: 4rem 0 2rem 0;">Shipped Titles</h2>
+
+<div class="stats-grid">
+  <div class="stat-card">
+    <div class="stat-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🎵</div>
+    <div class="stat-number" style="font-size: 1.25rem; margin-bottom: 0.25rem;">Wave Beta</div>
+    <div class="stat-label">Meta Quest, PCVR</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🕶️</div>
+    <div class="stat-number" style="font-size: 1.25rem; margin-bottom: 0.25rem;">Wave Standalone</div>
+    <div class="stat-label">PICO</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🍎</div>
+    <div class="stat-number" style="font-size: 1.25rem; margin-bottom: 0.25rem;">Alimentary Avengers</div>
+    <div class="stat-label">Mobile</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🪐</div>
+    <div class="stat-number" style="font-size: 1.25rem; margin-bottom: 0.25rem;">Tafe Planetary Plus</div>
+    <div class="stat-label">Mobile</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🎓</div>
+    <div class="stat-number" style="font-size: 1.25rem; margin-bottom: 0.25rem;">E-Smart</div>
+    <div class="stat-label">Mobile</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🛡️</div>
+    <div class="stat-number" style="font-size: 1.25rem; margin-bottom: 0.25rem;">Be Safe, Be Smart!</div>
+    <div class="stat-label">Mobile</div>
+  </div>
+</div>
