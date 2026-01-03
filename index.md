@@ -66,19 +66,15 @@ feature_row:
   </div>
 </div>
 
-<h2 style="text-align: center; margin: 4rem 0 2rem 0;">Featured Projects</h2>
-
-{% include feature_row %}
-
 <h2 style="text-align: center; margin: 4rem 0 2rem 0;">Shipped Titles</h2>
 
 <div class="stats-grid">
-  <a href="https://www.meta.com/experiences/wave-beta/7011698248940643/" target="_blank" class="stat-card" style="text-decoration: none;">
+  <a href="https://www.meta.com/experiences/wave-beta/7011698248940643/" target="_blank" class="stat-card clickable-card" style="text-decoration: none;">
     <div class="stat-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🎵</div>
     <div class="stat-number" style="font-size: 1.25rem; margin-bottom: 0.25rem;">Wave Beta</div>
     <div class="stat-label">Meta Quest, PCVR</div>
   </a>
-  <a href="https://www.picoxr.com/global/games/wave" target="_blank" class="stat-card" style="text-decoration: none;">
+  <a href="https://www.picoxr.com/global/games/wave" target="_blank" class="stat-card clickable-card" style="text-decoration: none;">
     <div class="stat-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🕶️</div>
     <div class="stat-number" style="font-size: 1.25rem; margin-bottom: 0.25rem;">Wave Standalone</div>
     <div class="stat-label">PICO</div>
@@ -104,3 +100,7 @@ feature_row:
     <div class="stat-label">Mobile</div>
   </div>
 </div>
+
+<h2 style="text-align: center; margin: 4rem 0 2rem 0;">Featured Projects</h2>
+
+{% include feature_row %}

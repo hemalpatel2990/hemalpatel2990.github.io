@@ -28,13 +28,34 @@
   padding: 2.5rem 1.5rem;
   border-radius: 10px;
   text-align: center;
-  transition: transform 0.3s, border-color 0.3s;
+  transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
   border: 1px solid #2a2a3e;
+  display: block; /* Ensure anchor tags behave like blocks */
+  color: inherit; /* Inherit text color for anchors */
 }
 
 .stat-card:hover {
   transform: translateY(-5px);
   border-color: #4a9eff;
+}
+
+/* New class for clickable cards to make them more obvious */
+.clickable-card {
+  position: relative;
+  cursor: pointer;
+}
+
+.clickable-card:hover {
+  box-shadow: 0 5px 15px rgba(74, 158, 255, 0.2);
+  border-color: #4a9eff;
+}
+
+.clickable-card .stat-number::after {
+  content: " \2197"; /* North East Arrow */
+  font-size: 0.8em;
+  opacity: 0.7;
+  display: inline-block;
+  margin-left: 5px;
 }
 
 .stat-icon {
