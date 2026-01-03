@@ -78,11 +78,11 @@ feature_row:
     <div class="stat-number" style="font-size: 1.25rem; margin-bottom: 0.25rem;">Wave Beta</div>
     <div class="stat-label">Meta Quest, PCVR</div>
   </div>
-  <div class="stat-card">
+  <a href="https://www.picoxr.com/global/games/wave" target="_blank" class="stat-card" style="text-decoration: none;">
     <div class="stat-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🕶️</div>
     <div class="stat-number" style="font-size: 1.25rem; margin-bottom: 0.25rem;">Wave Standalone</div>
     <div class="stat-label">PICO</div>
-  </div>
+  </a>
   <div class="stat-card">
     <div class="stat-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🍎</div>
     <div class="stat-number" style="font-size: 1.25rem; margin-bottom: 0.25rem;">Alimentary Avengers</div>
