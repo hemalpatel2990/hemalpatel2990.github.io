@@ -247,18 +247,15 @@ Integrated third-party technologies and built custom tools to improve content cr
 **Unity Developer**  
 **Jun 2014** - **Mar 2015** | **Pune, India**
 
-Shipped multiple commercial interactive applications with direct client collaboration and iterative development.
-
-### Commercial Unity Applications
-{: #commercial-applications}
-
-**Shipped Products:**
+**Shipped Titles:**
 1. **Alimentary Avengers** - Educational nutrition game
 2. **Tafe Planetary Plus** - Interactive learning application
 3. **E-Smart** - Educational platform
 4. **Be Safe, Be Smart!** - Safety awareness application
 
-**Key Achievements:**
+Shipped multiple commercial interactive applications with direct client collaboration and iterative development.
+
+### Key Achievements:
 - Shipped 4 commercial applications to production
 - Consulted with clients to define project scope and requirements
 - Provided accurate project estimations and timeline planning
