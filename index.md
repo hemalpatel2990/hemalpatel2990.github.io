@@ -14,7 +14,7 @@ header:
 excerpt: |
   **Senior Gameplay Engineer**<br>
   Gameplay Systems | Multiplayer Networking | Editor Tools | Performance Optimization<br>
-  <span style="font-size: 0.9em; opacity: 0.8;">Unreal Engine | Unity | C++ | C#</span>
+  <span style="font-size: 0.9em; opacity: 0.8;">Unreal Engine | Unity | C++ | C# | Lua</span>
 
 feature_row:
   - image_path: /assets/images/wavexr-thumb.png

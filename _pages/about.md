@@ -9,7 +9,7 @@ author_profile: true
 
 ## Professional Summary
 
-Senior Gameplay Engineer with over 6 years of experience building robust multiplayer systems and scalable toolsets for live-service (GAAS) games. I thrive on solving complex technical challenges—from optimizing low-level engine performance to architecting scalable gameplay frameworks. Deeply committed to fostering engineering excellence through mentorship and collaboration, I enjoy bridging the gap between creative design and technical implementation to deliver polished, innovative player experiences in remote, globally distributed teams.
+Software Engineer with extensive experience building server-authoritative multiplayer systems and custom Unreal and Unity editor tools. Proven record of delivering high-impact features for live-service products, including optimizing core systems for 80%+ performance gains and reducing art workflows by 30%. Strong background in Unreal Engine internals, multiplayer networking, and engine transitions, with a collaborative, mentorship-driven approach. Adept at operating in lean, fast-paced startup environments with a history of end-to-end feature ownership.
 
 ---
 
