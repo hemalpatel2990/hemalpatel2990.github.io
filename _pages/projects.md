@@ -46,6 +46,12 @@ A showcase of my professional work across multiplayer systems, engine optimizati
 **Software Engineer II (Senior Gameplay/Systems Focus)**  
 **Nov 2019** - **Dec 2025** | **Remote**
 
+**Shipped Experiences:**
+1. **Justin Bieber - An Interactive Virtual Experience** (2021)
+2. **The Weeknd Experience** (2020)
+3. **Pentakill: Lost Chapter** (League of Legends) (2021)
+4. **Calvin Harris - The Virtual Experience** (2023)
+
 Led mission-critical multiplayer systems and editor tools development for a live-service VR platform. Operated as both technical lead and solo engineer on rapid-response initiatives, focusing on architectural leadership for social systems, deep engine-level optimization, and the creation of developer-facing tools to accelerate art pipelines.
 
 ---
@@ -192,6 +198,9 @@ Full-stack feature development for critical rapid-response initiatives outside p
 
 **Contract Unity Programmer**  
 **Nov 2015** - **Feb 2020** | **Remote**
+
+**Key Projects:**
+1. **Eden Falling** - Turn-based Sci-Fi Survival RPG
 
 Contributed substantially to game engine codebase for turn-based strategy game, focusing on system-level functionality and core gameplay mechanics.
 
