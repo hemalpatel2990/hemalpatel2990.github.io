@@ -17,10 +17,24 @@ excerpt: |
   <span style="font-size: 0.9em; opacity: 0.8;">Unreal Engine | Unity | C++ | C# | Lua</span>
 
 feature_row:
-  - image_path: /assets/images/wavexr-thumb.png
-    alt: "WaveXR"
-    title: "WaveXR (2019-2025)"
-    excerpt: "Led multiplayer systems architecture, achieving **80%+ performance gains** and **30% workflow efficiency** improvements through custom editor tools."
+  - image_path: /assets/images/Weekend_Wave.webp
+    alt: "The Weeknd Experience"
+    title: "The Weeknd Experience (2020)"
+    excerpt: "Interactive virtual concert featuring real-time motion capture and fan interaction."
+    url: "/projects/#wavexr"
+    btn_label: "View Work"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/Pentakill_Wave.webp
+    alt: "Pentakill: Lost Chapter"
+    title: "Pentakill: Lost Chapter (2021)"
+    excerpt: "Interactive musical journey within the League of Legends universe."
+    url: "/projects/#wavexr"
+    btn_label: "View Work"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/CalvinHarris_Experience.png
+    alt: "Calvin Harris Experience"
+    title: "Calvin Harris Experience (2023)"
+    excerpt: "Immersive VR concert with reactive environments and multiplayer social features."
     url: "/projects/#wavexr"
     btn_label: "View Work"
     btn_class: "btn--primary"
