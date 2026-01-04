@@ -273,7 +273,7 @@ Independent initiatives and open-source contributions.
 <div class="project-thumbnails">
   <div class="project-thumb-card">
     <a href="#universal-data-sync">
-      <img src="/assets/images/universal-data-sync-thumb.svg" alt="Universal Data Sync">
+      <img src="/assets/images/universal-data-sync-thumb.png" alt="Universal Data Sync">
       <h3>Universal Data Sync</h3>
       <p>2025</p>
     </a>
@@ -285,7 +285,7 @@ Independent initiatives and open-source contributions.
 ## Universal Data Sync
 {: #universal-data-sync}
 
-![Universal Data Sync](/assets/images/universal-data-sync-thumb.svg){: .align-center}
+![Universal Data Sync](/assets/images/universal-data-sync-thumb.png){: .align-center}
 
 **Open Source Tool for Unreal Engine**  
 **Dec 2025** | **NeoNexus Studios**
