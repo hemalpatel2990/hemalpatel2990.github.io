@@ -52,142 +52,21 @@ A showcase of my professional work across multiplayer systems, engine optimizati
 3. **Pentakill: Lost Chapter** (League of Legends) (2021)
 4. **Calvin Harris - The Virtual Experience** (2023)
 
-Led mission-critical multiplayer systems and editor tools development for a live-service VR platform. Operated as both technical lead and solo engineer on rapid-response initiatives, focusing on architectural leadership for social systems, deep engine-level optimization, and the creation of developer-facing tools to accelerate art pipelines.
-
----
-
-### Technical Leadership & Code Quality
-{: #tech-leadership}
-
-**Role:** Technical Lead & Mentor
-
-Fostered a culture of technical excellence through mentorship, rigorous code reviews, and establishing high architectural standards.
+Led mission-critical multiplayer systems and editor tools development for a live-service VR platform.
 
 **Key Achievements:**
-- Provided technical guidance and mentorship to multiple developers on creating scalable interaction systems
-- Enforced high architectural standards through rigorous peer reviews, reducing technical debt
-- Established and maintained team coding guidelines, ensuring adherence to SOLID principles
-- Conducted daily code reviews to maintain performance budgets and code quality
-
-**Technologies:** C++, Unreal Engine, Perforce, JIRA, SOLID Principles
-
-**Impact:** Improved team-wide code quality, accelerated developer onboarding, and ensured long-term project maintainability.
-
----
-
-### Nexus Social System
-{: #nexus-social-system}
-
-**Role:** Technical Lead
-
-Mission-critical social infrastructure enabling real-time, persistent multiplayer interactions.
-
-**Key Achievements:**
-- Architected server-authoritative state-synchronization system from ground up
-- Enabled dynamic visual element changes across live server instances with seamless client updates
-- Led cross-functional team to successful integration and adoption as foundational platform system
-- Designed scalable architecture supporting thousands of concurrent users
-
-**Technologies:** Unreal Engine 4/5, C++, Multiplayer Networking, State Synchronization, Dedicated Servers
-
----
-
-### Performance Optimization Initiative
-{: #performance-optimization}
-
-**Role:** Systems Optimization Engineer
-
-Comprehensive engine-level refactoring resulting in dramatic performance improvements across the application.
-
-**Key Achievements:**
-- **80%+ performance gains** across core systems through deep engine-level optimization
-- Optimized memory management reducing allocations by 60%
-- Refactored rendering pipeline for improved frame rates
-- Applied data-driven optimization using Unreal Insights profiling tools
-- Identified and eliminated critical performance bottlenecks
-
-**Technologies:** Unreal Engine, C++, Unreal Insights, Performance Profiling Tools
-
-**Impact:** Enabled smooth performance on lower-spec hardware, expanding platform accessibility
-
----
-
-### Custom Unreal Editor Tools
-{: #custom-editor-tools}
-
-**Role:** Tools Engineer
-
-Proprietary editor extensions that dramatically improved art and design team workflows.
-
-**Key Achievements:**
-- **30% reduction in scene setup time** through automated workflows
-- Developed custom editor UI components for streamlined asset management
-- Created automated asset pipeline tools reducing manual errors
-- Cross-discipline collaboration to identify workflow pain points
-- Quantifiable productivity improvements across art team
-
-**Technologies:** Unreal Editor Extensions, C++, Python, Editor Scripting, Slate UI
-
-**Impact:** Freed up artist time for creative work instead of repetitive tasks
-
----
-
-### Unity to Unreal Engine Migration
-{: #engine-migration}
-
-**Role:** Core Systems Engineer
-
-Helped the team with the transition from Unity to Unreal while maintaining feature parity and zero downtime.
-
-**Key Achievements:**
-- Architected and implemented core interaction systems in Unreal Engine 5
-- Developed custom Niagara components for advanced visual effects
-- Designed single Niagara subsystem architecture per client for optimal performance
-- Maintained feature parity with Unity implementation
-- Zero production downtime during transition period
-- Mentored team on Unreal Engine best practices
-
-**Technologies:** Unreal Engine 5, Unity, C++, C#, Niagara VFX, Blueprint
-
-**Impact:** Unlocked next-generation rendering capabilities while maintaining stability
-
----
-
-### Backend Integration & Party Systems
-{: #backend-integration}
-
-**Role:** Gameplay Systems Engineer
-
-Seamless integration of backend services with robust, low-latency gameplay systems.
-
-**Key Achievements:**
-- Integrated foundational backend services (user accounts, party system, matchmaking)
-- Ensured reliable and scalable cross-platform data synchronization
-- Engineered low-latency dedicated multiplayer networking environments
-- Designed fault-tolerant systems with graceful degradation
-- Implemented robust authentication and session management
-
-**Technologies:** Unreal Engine, C++, REST APIs, WebSockets, Dedicated Servers
-
----
-
-### Rapid Prototyping & Solo Initiatives
-{: #rapid-prototyping}
-
-**Role:** Solo Engineer | Rapid Response Team
-
-Full-stack feature development for critical rapid-response initiatives outside primary roadmap.
-
-**Key Achievements:**
-- End-to-end feature ownership across Gameplay, UI, and Backend integration
-- Rapid prototyping to validate gameplay mechanics for stakeholders
-- "Fail fast" approach enabling quick pivots before resource commitment
-- Delivered critical features on accelerated timelines
-- Operated independently with minimal dependencies
-
-**Technologies:** Unreal Engine, C++, Backend APIs, UI Systems, Blueprint
-
-**Impact:** Enabled product team to validate ideas quickly and pivot based on real prototypes
+- Spearheaded a mission-critical core social initiative: Nexus, architecting the C++ UI framework, interaction models, and gameplay logic, leading the team to successful integration and adoption as a foundational system.
+- Functioned as a solo engineer on rapid-response initiatives, executing full-stack development (Gameplay, UI, Backend integration) to deliver critical features outside the primary roadmap cycle.
+- Performed rapid prototyping to validate gameplay mechanics for stakeholders, allowing the team to 'fail fast' and pivot direction before committing significant resources.
+- Architected and implemented server-authoritative, state-synchronization systems enabling users to dynamically change visual elements across a persistent, live server instance.
+- Provided technical guidance and mentorship to multiple developers on the creation of diverse and scalable interaction systems, ensuring adherence to engine best practices and performance standards.
+- Worked with the team on successful engine transition from Unity to Unreal, simultaneously architecting and implementing some of the core interaction features (e.g. Custom Niagara Components, Single Niagara Subsystem per client).
+- Integrated foundational backend services (e.g., user accounts, party system) with gameplay systems, ensuring reliable and scalable cross-platform data synchronization.
+- Engineered and optimized robust, low-latency gameplay systems for dedicated multiplayer networking environments, ensuring highly synchronized and scalable player experiences.
+- Developed multiple proprietary tools within the Unreal Editor, resulting in a quantifiable increase in workflow efficiency for the Content & Development teams (e.g., reducing scene setup time by 30%).
+- Applied deep engine-level expertise and Unreal Profiling tools (e.g., Unreal Insights) to refactor and optimize various core systems (e.g., memory management, rendering), resulting in substantial performance gains of over 80% across the application.
+- Enforced high architectural standards and code quality through rigorous peer reviews, reducing technical debt and ensuring long-term maintainability.
+- Established and maintained coding guidelines for the team, conducting daily code reviews to ensure adherence to SOLID principles and performance budgets.
 
 ---
 
@@ -202,40 +81,11 @@ Full-stack feature development for critical rapid-response initiatives outside p
 **Key Projects:**
 1. **Eden Falling** - Turn-based Sci-Fi Survival RPG
 
-Contributed substantially to game engine codebase for turn-based strategy game, focusing on system-level functionality and core gameplay mechanics.
-
----
-
-### Core Gameplay Engineering
-{: #razor-edge-gameplay}
-
-**Role:** Gameplay Programmer
-
-Engineered and supported core gameplay systems for a large-scale, open-world RPG.
-
 **Key Achievements:**
-- Engineered gameplay loops for turn-based combat, inventory, and survival mechanics
-- Implemented custom logic for dynamic boss encounters and persistent player tracking
-- Contributed to a major DLC release by diagnosing and fixing critical gameplay bugs
-- Maintained technical design documentation to ensure project transparency and smooth handoffs
-
-**Technologies:** Unity, C#, Visual Studio
-
----
-
-### Tools & Pipeline Integration
-{: #razor-edge-tools}
-
-**Role:** Tools & Systems Programmer
-
-Integrated third-party technologies and built custom tools to improve content creation pipelines.
-
-**Key Achievements:**
-- Led the integration of open-source hair/fur simulation and holographic UI shaders
-- Troubleshot complex mesh-to-spline data format conflicts during integration
-- Created custom internal tools that streamlined the content pipeline for artists and designers
-
-**Technologies:** Unity, C#, Content Pipeline Automation
+- Engineered core gameplay loops including turn-based combat, inventory, and survival mechanics, implementing custom logic for dynamic boss encounters and player tracking.
+- Led the integration of open-source hair/fur simulation and holographic UI shaders, troubleshooting complex mesh-to-spline data format conflicts.
+- Created custom internal tools that streamlined the content creation pipeline, reducing iteration time for artists and designers on a large-scale open-world project.
+- Contributed to a major DLC release by diagnosing critical bugs and maintaining technical documentation to ensure project transparency.
 
 ---
 
@@ -253,16 +103,10 @@ Integrated third-party technologies and built custom tools to improve content cr
 3. **E-Smart** - Educational platform
 4. **Be Safe, Be Smart!** - Safety awareness application
 
-Shipped multiple commercial interactive applications with direct client collaboration and iterative development.
-
-### Key Achievements:
-- Shipped 4 commercial applications to production
-- Consulted with clients to define project scope and requirements
-- Provided accurate project estimations and timeline planning
-- Implemented and iteratively refined UI/UX based on client feedback
-- Suggested process improvements for development workflow
-
-**Technologies:** Unity, C#, Mobile Development (iOS/Android), UI Design
+**Key Achievements:**
+- Shipped interactive commercial applications using Unity, including *Alimentary Avengers*, *Tafe Planetary Plus*, *E-Smart*, and the informative app *Be Safe, Be Smart!*
+- Consulted with clients to define project scope and provided accurate project estimations, along with process improvement suggestions.
+- Implemented and iteratively refined UI/UX and gameplay features based on direct client feedback and requirements.
 
 ---
 

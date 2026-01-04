@@ -15,33 +15,23 @@ Software Engineer with extensive experience building server-authoritative multip
 
 ## Technical Expertise
 
-### Programming Languages
-- **C++** (Advanced) - Unreal Engine, performance-critical systems
-- **C#** (Advanced) - Unity, gameplay systems
-- **Lua** (Intermediate) - Scripting and tools
+### Languages
+C++, C#, Lua
 
 ### Game Engines
-- **Unreal Engine 4 & 5** (Expert) - 6+ years production experience
-- **Unity** (Advanced) - 9+ years production experience
+Unreal 4, Unreal 5, Unity
 
-### Core Specializations
-- Gameplay Systems & Physics
-- Multiplayer Networking & State Synchronization
-- Online Game Development
-- Server-Authoritative Systems Architecture
-- Performance Optimization & Profiling
-- Custom Editor Tools & Pipeline Development
-- UI Systems & Framework Development (MVVM)
-- Full-Stack Gameplay Development
-- Engine Transitions & Migrations
+### Programming Skills
+Gameplay Systems, Multiplayer, Online Game Development, UI Systems(UMG, Slate, C++), MVVM, Physics
 
-### Tools & Technologies
-- **Version Control:** Perforce, Git/GitHub
-- **Automation:** BuildGraph, Custom Automation Tools
-- **IDEs:** Visual Studio, Rider, VSCode
-- **Project Management:** JIRA
-- **Profiling:** Unreal Insights, Visual Studio Profiler
-- **AI Tools:** Claude, Gemini, GitHub Copilot
+### Core Competencies
+Problem Solving, Teamwork, Communication, Adaptability, Mentoring, Technical Design, Leadership
+
+### Tools
+Perforce, Github, BuildGraph, Automation Tools, Visual Studio, Rider, VSCode, JIRA
+
+### AI Tools
+Claude, Gemini, Copilot
 
 ---
 
