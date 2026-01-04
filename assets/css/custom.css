@@ -58,6 +58,74 @@
   margin-left: 5px;
 }
 
+/* Flip Card Styles */
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
+  height: 200px; /* Fixed height for consistency */
+  cursor: pointer;
+  text-decoration: none !important; /* Remove underline from anchor */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  border: 1px solid #2a2a3e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card-front {
+  background: #1a1a2e;
+}
+
+.flip-card-back {
+  background: #1a1a2e;
+  transform: rotateY(180deg);
+  overflow: hidden;
+}
+
+.flip-card-back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6; /* Dim image slightly to make text readable if we add any */
+  transition: opacity 0.3s;
+}
+
+.flip-card:hover .flip-card-back img {
+  opacity: 1;
+}
+
+/* Ensure stats grid handles fixed height flip cards */
+.stats-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
 .stat-icon {
   font-size: 3rem;
   margin-bottom: 1rem;
