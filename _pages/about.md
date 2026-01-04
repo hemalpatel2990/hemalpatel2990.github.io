@@ -35,18 +35,6 @@ Claude, Gemini, Copilot
 
 ---
 
-## Core Competencies
-
-- Technical Leadership & Mentorship
-- Cross-Functional Collaboration
-- Problem Solving & Debugging
-- Performance Engineering
-- System Architecture Design
-- Rapid Prototyping
-- Adaptability in Fast-Paced Environments
-
----
-
 ## Education
 
 **Master of Science in Computer Game Programming**  
