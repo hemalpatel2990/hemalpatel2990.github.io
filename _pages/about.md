@@ -22,10 +22,10 @@ C++, C#, Lua
 Unreal 4, Unreal 5, Unity
 
 ### Programming Skills
-Gameplay Systems, Multiplayer, Online Game Development, UI Systems(UMG, Slate, C++), MVVM, Physics
+Gameplay Systems, Gameplay Ability System (GAS), Multiplayer Networking, Live Service (GAAS), UI Systems, MVVM, Multithreading, Vector Math
 
 ### Core Competencies
-Problem Solving, Teamwork, Communication, Adaptability, Mentoring, Technical Design, Leadership
+System Architecture, Technical Leadership, Mentoring, Cross-discipline Collaboration, Performance Profiling
 
 ### Tools
 Perforce, Github, BuildGraph, Automation Tools, Visual Studio, Rider, VSCode, JIRA
