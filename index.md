@@ -31,7 +31,7 @@ feature_row:
     url: "/projects/#wavexr"
     btn_label: "View Work"
     btn_class: "btn--primary"
-  - image_path: /assets/images/Bieber_Wave.jpg
+  - image_path: /assets/images/Bieber_Wave.webp
     alt: "Justin Bieber Experience"
     title: "Justin Bieber Experience (2021)"
     excerpt: "Global interactive virtual concert with real-time avatar performance."
