@@ -282,6 +282,26 @@ Independent initiatives and open-source contributions.
 
 ---
 
+## Elemental Arsenal
+{: #elemental-arsenal}
+
+**Modular GAS Plugin for Unreal Engine 5**  
+**2024** | **Personal Project**
+
+A modular Gameplay Ability System (GAS) plugin for Unreal Engine 5 designed to streamline equipment management and complex elemental interactions.
+
+**Key Features:**
+- **Data-Driven Equipment System:** Manage visuals, abilities, and elemental tags through `UEAEquipmentDefinition` Data Assets.
+- **Configurable Elemental Reactions:** Define dynamic rules (e.g., `Fire + Oil = Explosion`) via Project Settings, applied dynamically in the Attribute Set.
+- **Ability Wizard:** Custom editor tool to automate the creation and "auto-wiring" of Gameplay Abilities and Effects.
+- **Automatic Lifecycle:** Handles the granting and revoking of abilities and loose tags automatically during item equip/unequip.
+
+**Technologies:** Unreal Engine 5, C++, Gameplay Ability System (GAS), Editor Scripting, Mermaid.js
+
+**Repository:** [ElementalArsenal](https://github.com/hemalpatel2990/ElementalArsenal)
+
+---
+
 ## Universal Data Sync
 {: #universal-data-sync}
 
