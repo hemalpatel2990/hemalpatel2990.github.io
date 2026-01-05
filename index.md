@@ -38,6 +38,8 @@ feature_row:
     url: "/projects/#wavexr"
     btn_label: "View Work"
     btn_class: "btn--primary"
+
+feature_row_2:
   - image_path: /assets/images/CalvinHarris_Experience.png
     alt: "Calvin Harris Experience"
     title: "Calvin Harris Experience (2023)"
@@ -172,3 +174,4 @@ feature_row:
 <h2 style="text-align: center; margin: 4rem 0 2rem 0;">Featured Projects</h2>
 
 {% include feature_row %}
+{% include feature_row id="feature_row_2" %}
