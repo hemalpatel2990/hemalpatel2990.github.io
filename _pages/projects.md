@@ -278,6 +278,13 @@ Independent initiatives and open-source contributions.
       <p>2025</p>
     </a>
   </div>
+  <div class="project-thumb-card">
+    <a href="#elemental-arsenal">
+      <img src="/assets/images/universal-data-sync-thumb.png" alt="Elemental Arsenal">
+      <h3>Elemental Arsenal</h3>
+      <p>2024</p>
+    </a>
+  </div>
 </div>
 
 ---
