@@ -41,8 +41,6 @@ A showcase of my professional work across multiplayer systems, engine optimizati
 ## WaveXR
 {: #wavexr}
 
-![WaveXR](/assets/images/wavexr-thumb.png){: .align-center}
-
 **Software Engineer II (Senior Gameplay/Systems Focus)**  
 **Nov 2019** - **Dec 2025** | **Remote**
 
@@ -194,8 +192,6 @@ Full-stack feature development for critical rapid-response initiatives outside p
 ## Razor Edge Games
 {: #razor-edge-games}
 
-![Razor Edge Games](/assets/images/razor-thumb.png){: .align-center}
-
 **Contract Unity Programmer**  
 **Nov 2015** - **Feb 2020** | **Remote**
 
@@ -242,8 +238,6 @@ Integrated third-party technologies and built custom tools to improve content cr
 ## Smartcloud Infotech Pvt. Ltd.
 {: #smartcloud-infotech}
 
-![Smartcloud Infotech](/assets/images/smartcloud-thumb.png){: .align-center}
-
 **Unity Developer**  
 **Jun 2014** - **Mar 2015** | **Pune, India**
 
@@ -272,17 +266,17 @@ Independent initiatives and open-source contributions.
 
 <div class="project-thumbnails">
   <div class="project-thumb-card">
-    <a href="#universal-data-sync">
-      <img src="/assets/images/universal-data-sync-thumb.png" alt="Universal Data Sync">
-      <h3>Universal Data Sync</h3>
+    <a href="#elemental-arsenal">
+      <img src="/assets/images/ElementalArsenal_thumb.png" alt="Elemental Arsenal">
+      <h3>Elemental Arsenal</h3>
       <p>2025</p>
     </a>
   </div>
   <div class="project-thumb-card">
-    <a href="#elemental-arsenal">
-      <img src="/assets/images/ElementalArsenal_thumb.png" alt="Elemental Arsenal">
-      <h3>Elemental Arsenal</h3>
-      <p>2024</p>
+    <a href="#universal-data-sync">
+      <img src="/assets/images/universal-data-sync-thumb.png" alt="Universal Data Sync">
+      <h3>Universal Data Sync</h3>
+      <p>2025</p>
     </a>
   </div>
 </div>
@@ -293,7 +287,7 @@ Independent initiatives and open-source contributions.
 {: #elemental-arsenal}
 
 **Modular GAS Plugin for Unreal Engine 5**  
-**2024** | **Personal Project**
+**2025** | **Personal Project**
 
 A modular Gameplay Ability System (GAS) plugin for Unreal Engine 5 designed to streamline equipment management and complex elemental interactions.
 
@@ -311,8 +305,6 @@ A modular Gameplay Ability System (GAS) plugin for Unreal Engine 5 designed to s
 
 ## Universal Data Sync
 {: #universal-data-sync}
-
-![Universal Data Sync](/assets/images/universal-data-sync-thumb.png){: .align-center}
 
 **Open Source Tool for Unreal Engine**  
 **Dec 2025** | **NeoNexus Studios**

@@ -67,22 +67,18 @@ feature_row_2:
   <h2>Quick Stats</h2>
   <div class="stats-grid">
     <div class="stat-card">
-      <div class="stat-icon">🎮</div>
       <div class="stat-number">11+</div>
       <div class="stat-label">Years in Game Dev</div>
     </div>
     <div class="stat-card">
-      <div class="stat-icon">⚡</div>
       <div class="stat-number">80%+</div>
       <div class="stat-label">Performance Gains</div>
     </div>
     <div class="stat-card">
-      <div class="stat-icon">🛠️</div>
       <div class="stat-number">30%</div>
       <div class="stat-label">Workflow Efficiency</div>
     </div>
     <div class="stat-card">
-      <div class="stat-icon">🌐</div>
       <div class="stat-number">Expert</div>
       <div class="stat-label">Multiplayer Networking</div>
     </div>
