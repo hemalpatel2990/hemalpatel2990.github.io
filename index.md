@@ -91,7 +91,6 @@ feature_row_2:
   <a href="https://www.meta.com/experiences/wave-beta/7011698248940643/" target="_blank" class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <div class="stat-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🎵</div>
         <div class="stat-number" style="font-size: 1.25rem; margin-bottom: 0.25rem;">Wave Beta</div>
         <div class="stat-label">Meta Quest, PCVR</div>
       </div>
@@ -104,7 +103,6 @@ feature_row_2:
   <a href="https://www.picoxr.com/global/games/wave" target="_blank" class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <div class="stat-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🕶️</div>
         <div class="stat-number" style="font-size: 1.25rem; margin-bottom: 0.25rem;">Wave Standalone</div>
         <div class="stat-label">PICO</div>
       </div>
@@ -117,7 +115,6 @@ feature_row_2:
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <div class="stat-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🍎</div>
         <div class="stat-number" style="font-size: 1.25rem; margin-bottom: 0.25rem;">Alimentary Avengers</div>
         <div class="stat-label">Mobile</div>
       </div>
@@ -130,7 +127,6 @@ feature_row_2:
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <div class="stat-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🪐</div>
         <div class="stat-number" style="font-size: 1.25rem; margin-bottom: 0.25rem;">Tafe Planetary Plus</div>
         <div class="stat-label">Mobile</div>
       </div>
@@ -143,7 +139,6 @@ feature_row_2:
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <div class="stat-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🎓</div>
         <div class="stat-number" style="font-size: 1.25rem; margin-bottom: 0.25rem;">E-Smart</div>
         <div class="stat-label">Mobile</div>
       </div>
@@ -156,7 +151,6 @@ feature_row_2:
   <div class="flip-card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <div class="stat-icon" style="font-size: 2rem; margin-bottom: 0.5rem;">🛡️</div>
         <div class="stat-number" style="font-size: 1.25rem; margin-bottom: 0.25rem;">Be Safe, Be Smart!</div>
         <div class="stat-label">Mobile</div>
       </div>
