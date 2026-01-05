@@ -31,6 +31,13 @@ feature_row:
     url: "/projects/#wavexr"
     btn_label: "View Work"
     btn_class: "btn--primary"
+  - image_path: /assets/images/Bieber_Wave.jpg
+    alt: "Justin Bieber Experience"
+    title: "Justin Bieber Experience (2021)"
+    excerpt: "Global interactive virtual concert with real-time avatar performance."
+    url: "/projects/#wavexr"
+    btn_label: "View Work"
+    btn_class: "btn--primary"
   - image_path: /assets/images/CalvinHarris_Experience.png
     alt: "Calvin Harris Experience"
     title: "Calvin Harris Experience (2023)"
