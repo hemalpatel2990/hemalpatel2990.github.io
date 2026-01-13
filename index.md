@@ -12,9 +12,9 @@ header:
     - label: "Contact Me"
       url: "/contact/"
 excerpt: |
-  **Senior Gameplay Engineer**<br>
-  Gameplay Systems | Multiplayer Networking | Editor Tools | Performance Optimization<br>
-  <span style="font-size: 0.9em; opacity: 0.8;">Unreal Engine | Unity | C++ | C# | Lua</span>
+  **Senior Gameplay & Systems Engineer**<br>
+  Engine & Core Systems | Multiplayer Networking | UI Engineering | Tools & Optimization<br>
+  <span style="font-size: 0.9em; opacity: 0.8;">Unreal Engine (UE4/5) | Unity | C++ | C# | Lua | Python</span>
 
 feature_row:
   - image_path: /assets/images/Weekend_Wave.webp

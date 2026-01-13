@@ -9,26 +9,32 @@ author_profile: true
 
 ## Professional Summary
 
-Software Engineer with extensive experience building server-authoritative multiplayer systems and custom Unreal and Unity editor tools. Proven record of delivering high-impact features for live-service products, including optimizing core systems for 80%+ performance gains and reducing art workflows by 30%. Strong background in Unreal Engine internals, multiplayer networking, and engine transitions, with a collaborative, mentorship-driven approach. Adept at operating in lean, fast-paced startup environments with a history of end-to-end feature ownership.
+Senior Engineer with over 11 years of experience architecting high-performance systems and a versatile Generalist with expertise spanning UI, Gameplay, and Backend systems. Proven track record of working on multiple engines (Unity, Unreal), mentoring engineering teams, and shipping titles from concept to live-service. Subject matter expert in Multiplayer Networking and Performance Optimization.
+
+A collaborative technical leader who bridges the gap between creative design and engineering execution. Proven track record of helping with major engine migrations (Unity to Unreal), mentoring engineering teams, and building proprietary tools that significantly boost studio productivity. Adept at operating in lean, fast-paced environments with a history of end-to-end feature ownership—from low-level replication and multithreading to high-level UI animation and gameplay logic.
 
 ---
 
 ## Technical Expertise
 
 ### Languages
-C++, C#, Lua
+C++, C#, Lua, Python
 
 ### Game Engines
-Unreal 4, Unreal 5, Unity
+Unreal Engine 4, Unreal Engine 5, Unity, Godot
 
 ### Programming Skills
-Gameplay Systems, Gameplay Ability System (GAS), Multiplayer Networking, Live Service (GAAS), UI Systems, MVVM, Multithreading, Vector Math
+**Core & Systems:** Gameplay Ability System (GAS), Gameplay Systems, Multiplayer Networking (Replication/Prediction), Memory Management, Multithreading, 3D Math
+**UI & Front-end:** UI Systems, MVVM, UI Animation, Interactive Interfaces
+**Optimization:** Console/VR Optimization, Performance Profiling, Live Service (GAAS) Architecture
 
 ### Core Competencies
-System Architecture, Technical Leadership, Mentoring, Cross-discipline Collaboration, Performance Profiling
+System Architecture, Technical Leadership, Mentoring, Cross-discipline Collaboration (Art/Design/Engineering), Engine Source Modification, Rapid Prototyping
 
 ### Tools
-Perforce, Github, BuildGraph, Automation Tools, Visual Studio, Rider, VSCode, JIRA
+**Development:** Visual Studio, Rider, VSCode, Perforce, Git, BuildGraph, TeamCity, AWS
+**Debugging & Profiling:** Unreal Insights, RenderDoc, Automation Tools
+**Management:** JIRA, Confluence
 
 ### AI Tools
 Claude, Gemini, Copilot

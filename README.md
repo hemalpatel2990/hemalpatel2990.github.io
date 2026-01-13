@@ -6,11 +6,11 @@ Personal portfolio website showcasing game development experience, projects, and
 
 ## About
 
-Senior Software Engineer with 11+ years of experience specializing in:
-- Gameplay Systems
+Senior Gameplay & Systems Engineer with 11+ years of experience specializing in:
+- Engine & Core Systems
 - Multiplayer Networking
-- Custom Editor Tools
-- Performance Optimization
+- UI Engineering
+- Tools & Performance Optimization
 
 ## Tech Stack
 
