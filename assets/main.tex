@@ -7,14 +7,16 @@
 
 \documentclass[letterpaper,11pt]{article}
 
+\usepackage[T1]{fontenc}
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
 \usepackage{titlesec}
+\usepackage{lmodern}
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[hidelinks, bookmarks=false, pdfencoding=auto, psdextra]{hyperref}
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=NavyBlue, bookmarks=false, pdfencoding=auto, psdextra]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
@@ -100,14 +102,14 @@
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 
 \begin{document}
 
 \begin{center}
-    \textbf{\Huge \scshape Hemal Patel} \\ \vspace{1pt}
-    \small 908-300-4557 $|$ \nolinkurl{hemalpatel2990@hotmail.com} $|$ 
+    \textbf{\Huge Hemal Patel} \\ \vspace{1pt}
+    \small Horsham, PA $|$ 908-300-4557 $|$ \nolinkurl{hemalpatel2990@hotmail.com} $|$ 
     \href{https://linkedin.com/in/hemalpatel2990}{LinkedIn} $|$
     \href{https://hemalpatel2990.github.io/}{Portfolio}
 \end{center}
@@ -115,7 +117,7 @@
 %----------- PROFESSIONAL SUMMARY-----------
 \section*{Professional Summary}
 \addcontentsline{toc}{section}{Professional Summary}
-\small {Software Engineer with extensive experience building server-authoritative multiplayer systems and custom Unreal and Unity editor tools. Proven record of delivering high-impact features for live-service products, including optimizing core systems for 80\%+ performance gains and reducing art workflows by 30\%. Strong background in Unreal Engine internals, multiplayer networking, and engine transitions, with a collaborative, mentorship-driven approach. Adept at operating in lean, fast-paced startup environments with a history of end-to-end feature ownership.}
+\small {Senior Game Programmer with over 10 years of experience \textbf{designing and shipping gameplay systems, engine features, and tools} in Unreal Engine and Unity. Equally strong in \textbf{C++ and C\symbol{35}}, with deep expertise in \textbf{system architecture, 3D math, physics, multiplayer networking, and engine internals}. Proven ability to \textbf{drive technical execution}---including contributing to a full engine migration from Unity to UE5---while collaborating with \textbf{cross-disciplinary teams} across art, design, and audio. Track record of \textbf{shipping production titles} on PC, mobile, and XR platforms. Passionate about clean, performant, and maintainable code across the full game development stack.}
 
 
 %-----------PROGRAMMING SKILLS-----------
@@ -123,12 +125,21 @@
 \addcontentsline{toc}{section}{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: C++, C\#, Lua} \\
-     \textbf{Game Engines}{: Unreal 4, Unreal 5, Unity} \\
-     \textbf{Programming Skills}{: Gameplay Systems, Multiplayer, Online Game Development, UI Systems(UMG, Slate, C++), MVVM, Physics} \\
-     \textbf{Core Competencies}{: Problem Solving, Teamwork, Communication, Adaptability, Mentoring, Technical Design, Leadership} \\
-     \textbf{Tools}{: Perforce, Github, BuildGraph, Automation Tools, Visual Studio, Rider, VSCode, JIRA} \\
-     \textbf{AI Tools}{: Claude, Gemini, Copilot} \\
+     \textbf{Languages}{: C++, C\symbol{35}, Lua, Python} \\
+     \textbf{Engines \& Frameworks}{: Unreal Engine 4/5, Unity, Godot} \\
+     \textbf{Engineering}{: Gameplay Systems, System Architecture, Physics/Collision, Multiplayer Networking, AI \& Behavior Systems, Multithreading, Memory Management} \\
+     \textbf{Technical Skills}{: 3D Math \& Linear Algebra, Performance Profiling \& Optimization, Gameplay Prototyping, Rapid Prototyping, CI/CD Pipelines, Automated Testing, Cross-Platform Development (PC, Mobile, XR)} \\
+     \textbf{Tools}{: Git, Perforce, Visual Studio, Unreal Insights, RenderDoc, JIRA, BuildGraph, Docker} \\
+    }}
+ \end{itemize}
+
+%-----------SHIPPED TITLES-----------
+\section*{Shipped Titles}
+\addcontentsline{toc}{section}{Shipped Titles}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \href{https://www.meta.com/experiences/wave-beta/7011698248940643/}{\textbf{Wave Beta}} (Unreal) $|$ \href{https://www.picoxr.com/global/games/wave}{\textbf{Wave Standalone}} (Unreal) $|$ \textbf{Alimentary Avengers} (Unity) \\
+     \textbf{Tafe Planetary Plus} (Unity) $|$ \textbf{E-Smart} $|$ \textbf{Be Safe, Be Smart!}
     }}
  \end{itemize}
 
@@ -136,22 +147,19 @@
 \section*{Experience}
 \addcontentsline{toc}{section}{Experience}
   \resumeSubHeadingListStart
- 	\resumeSubheading
-      {Software Engineer II (Senior Gameplay / Systems Focus)}{Nov 2019 -- Dec 2025}
+    \resumeSubheading
+      {Software Engineer II}{Nov 2019 -- Dec 2025}
       {WaveXR}{Remote}
       \resumeItemListStart
-        \resumeItem{Spearheaded a mission-critical core social initiative: Nexus, architecting the C++ UI framework, interaction models, and gameplay logic, leading the team to successful integration and adoption as a foundational system.}
-        \resumeItem{Functioned as a solo engineer on rapid-response initiatives, executing full-stack development (Gameplay, UI, Backend integration) to deliver critical features outside the primary roadmap cycle.}
-        \resumeItem{Performed rapid prototyping to validate gameplay mechanics for stakeholders, allowing the team to 'fail fast' and pivot direction before committing significant resources.}
-        \resumeItem{Architected and implemented server-authoritative, state-synchronization systems enabling users to dynamically change visual elements across a persistent, live server instance.}
-        \resumeItem{Provided technical guidance and mentorship to multiple developers on the creation of diverse and scalable interaction systems, ensuring adherence to engine best practices and performance standards.}
-        \resumeItem{Worked with the team on successful engine transition from Unity to Unreal, simultaneously architecting and implementing some of the core interaction features (e.g. Custom Niagara Components, Single Niagara Subsystem per client).}
-        \resumeItem{Integrated foundational backend services (e.g., user accounts, party system) with gameplay systems, ensuring reliable and scalable cross-platform data synchronization.}
-        \resumeItem{Engineered and optimized robust, low-latency gameplay systems for dedicated multiplayer networking environments, ensuring highly synchronized and scalable player experiences.}
-        \resumeItem{Developed multiple proprietary tools within the Unreal Editor, resulting in a quantifiable increase in workflow efficiency for the Content \& Development teams (e.g., reducing scene setup time by 30\%).}
-        \resumeItem{Applied deep engine-level expertise and Unreal Profiling tools (e.g., Unreal Insights) to refactor and optimize various core systems (e.g., memory management, rendering), resulting in substantial performance gains of over 80\% across the application.}
-        \resumeItem{Enforced high architectural standards and code quality through rigorous peer reviews, reducing technical debt and ensuring long-term maintainability.}
-        \resumeItem{Established and maintained coding guidelines for the team, conducting daily code reviews to ensure adherence to SOLID principles and performance budgets.}
+        \resumeItem{Played a key role in a major \textbf{engine migration from Unity to Unreal Engine 5}, architecting core systems in C++ and ensuring feature parity across the full product stack.}
+        \resumeItem{Led a cross-functional engineering team to develop a core Social Experience, overseeing system design, strategic decision-making, and technical mentorship for junior developers.}
+        \resumeItem{Owned large gameplay features end-to-end---from design through implementation and optimization---developing, modifying, and debugging interactive systems in \textbf{C++ and Blueprints}.}
+        \resumeItem{Designed and implemented \textbf{server-authoritative networking} architecture, solving complex replication, prediction, and latency challenges for \textbf{multiplayer gameplay} on \textbf{PC, mobile, and XR platforms}.}
+        \resumeItem{Defined and enforced \textbf{performance budgets} using \textbf{Unreal Insights} and profiling tools, achieving 80\%+ optimization in memory and frame time on target hardware.}
+        \resumeItem{Partnered with \textbf{cross-disciplinary teams} (art, design, audio) to rapidly prototype \textbf{gameplay features}, prioritizing playable iteration to validate requirements early.}
+        \resumeItem{Developed custom \textbf{editor tools and build automation} to streamline content pipelines and CI/CD workflows, significantly reducing iteration time across the studio.}
+        \resumeItem{Drove \textbf{code review culture} and authored internal technical documentation, improving code quality and onboarding efficiency across a distributed team.}
+        \resumeItem{Diagnosed and resolved complex cross-system issues spanning \textbf{physics, animation, networking, and rendering} using systematic debugging and profiling methodologies.}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -165,25 +173,48 @@
 %-------------------------------------------
 
     \resumeSubheading
-      {Contract Unity Programmer}{Nov 2015 -- Feb 2020}
+      {Unity Programmer (Contract)}{Nov 2015 -- Nov 2020}
       {Razor Edge Games}{Remote}
       \resumeItemListStart
-        \resumeItem{Engineered core gameplay loops including turn-based combat, inventory, and survival mechanics, implementing custom logic for dynamic boss encounters and player tracking.}
-        \resumeItem{Led the integration of open-source hair/fur simulation and holographic UI shaders, troubleshooting complex mesh-to-spline data format conflicts.}
-        \resumeItem{Created custom internal tools that streamlined the content creation pipeline, reducing iteration time for artists and designers on a large-scale open-world project.}
-        \resumeItem{Contributed to a major DLC release by diagnosing critical bugs and maintaining technical documentation to ensure project transparency.}
+        \resumeItem{Engineered core \textbf{gameplay systems} in C\symbol{35}, including turn-based simulation, inventory management, and survival mechanics, architecting clean, extensible code for long-term maintainability.}
+        \resumeItem{Collaborated with \textbf{cross-disciplinary teams} to architect and implement the \textbf{Character Creator} system from concept to completion, managing complex mesh, animation, and UI interactions.}
+        \resumeItem{Built custom \textbf{editor tools} and extensions that streamlined the content creation pipeline, reducing iteration time for artists and designers.}
+        \resumeItem{Debugged complex rendering and visual systems, resolving mesh-to-spline conflicts and implementing \textbf{custom shaders} for holographic UI effects.}
+        \resumeItem{Established \textbf{coding standards} and led code reviews to ensure quality and maintainability across a distributed team.}
     \resumeItemListEnd
-
+\pagebreak
     \resumeSubheading
       {Unity Developer}{Jun 2014 -- March 2015}
       {Smartcloud Infotech Pvt. Ltd.}{Pune, India}
       \resumeItemListStart
-        \resumeItem{Shipped interactive commercial applications using Unity, including \textit{Alimentary Avengers}, \textit{Tafe Planetary Plus}, \textit{E-Smart}, and the informative app \textit{Be Safe, Be Smart!}}
-        \resumeItem{Consulted with clients to define project scope and provided accurate project estimations, along with process improvement suggestions. }
-        \resumeItem{Implemented and iteratively refined UI/UX and gameplay features based on direct client feedback and requirements. }
+        \resumeItem{Developed and shipped multiple \textbf{interactive commercial applications} on mobile platforms using Unity, delivering on strict client requirements and timelines.}
+        \resumeItem{Consulted with clients to define project scope, provided accurate technical estimations, and recommended process improvements.}
+        \resumeItem{Implemented and iteratively refined \textbf{UI/UX and interactive features} based on direct client feedback, driving rapid iteration cycles.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section*{Technical Projects}
+\addcontentsline{toc}{section}{Technical Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{ElementalArsenal} $|$ \small{C++, Unreal Engine 5, Gameplay Ability System, Editor Tools}}{}
+          \resumeItemListStart
+            \resumeItem{Engineered a modular gameplay plugin extending \textbf{GAS} to support data-driven equipment pipelines and automated elemental reactions, applying \textbf{vector math and collision logic} for spatial gameplay mechanics.}
+            \resumeItem{Built custom \textbf{Editor Tools} to automate asset generation, significantly accelerating the workflow for gameplay designers.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{UniversalDataSync (NeoDataSync)} $|$ \small{C++, Unreal Engine, Multiplayer}}{}
+          \resumeItemListStart
+            \resumeItem{Architected an Unreal Engine plugin to streamline replication of arbitrary data structures in multiplayer environments, reducing networking boilerplate for complex \textbf{gameplay states}.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{NeoThreads} $|$ \small{C++, Unreal Engine, Multithreading}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a lightweight concurrency framework to offload computationally expensive operations from the Game Thread, improving frame stability and performance for CPU-intensive gameplay systems.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------
 \section*{Education}

@@ -41,7 +41,7 @@ A showcase of my professional work across multiplayer systems, engine optimizati
 ## WaveXR
 {: #wavexr}
 
-**Software Engineer II (Senior Gameplay/Systems Focus)**  
+**Senior Software Engineer II**
 **Nov 2019** - **Dec 2025** | **Remote**
 
 **Shipped Experiences:**
@@ -50,7 +50,7 @@ A showcase of my professional work across multiplayer systems, engine optimizati
 3. **Pentakill: Lost Chapter** (League of Legends) (2021)
 4. **Calvin Harris - The Virtual Experience** (2023)
 
-Led development of mission-critical multiplayer systems, engine optimizations, and editor tools for a live-service VR platform. Operated as a technical bridge between creative vision and engineering execution, understanding of engine source code and implementing scalable C++ and Lua frameworks.
+Led development of mission-critical multiplayer systems, engine optimizations, and editor tools for a live-service VR platform. Operated as a technical bridge between creative vision and engineering execution, with deep understanding of engine source code and implementing scalable C++ and Lua frameworks.
 
 ---
 
@@ -150,7 +150,7 @@ Contributed to the technical strategy and execution of a major engine transition
 **Key Projects:**
 1. **Eden Falling** - Turn-based Sci-Fi Survival RPG
 
-Contributed substantially to the game engine codebase for this turn-based strategy game, focusing on system-level functionality and core gameplay mechanics.
+Contributed substantially to the game engine codebase for this turn-based sci-fi survival RPG, focusing on system-level functionality and core gameplay mechanics.
 
 ---
 
@@ -203,11 +203,11 @@ Integrated third-party technologies and built custom tools to improve content cr
 Shipped multiple commercial interactive applications with direct client collaboration and iterative development.
 
 ### Key Achievements:
-- Shipped 4 commercial applications to production
-- Consulted with clients to define project scope and requirements
+- Shipped 4 commercial applications to production across educational and interactive platforms
+- Consulted directly with clients to define project scope, requirements, and timelines
 - Implemented and iteratively refined UI/UX based on client feedback, integrating **UI animation and transitions**
 - Provided accurate project estimations and timeline planning
-- Suggested process improvements for development workflow
+- Suggested and implemented process improvements for development workflow
 
 **Technologies:** Unity, C#, Mobile Development (iOS/Android), UI Design, Animation
 

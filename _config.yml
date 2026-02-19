@@ -1,8 +1,8 @@
 # Site Settings
 title: "Hemal Patel"
-subtitle: "Senior Gameplay Engineer"
+subtitle: "Senior Gameplay & Systems Engineer"
 name: "Hemal Patel"
-description: "Senior Software Engineer with 11+ years of experience specializing in multiplayer systems, Unreal Engine, Unity, and custom editor tools."
+description: "Senior Software Engineer with 10+ years of experience architecting high-performance multiplayer systems, engine optimizations, and custom tools across Unreal Engine and Unity."
 url: "https://hemalpatel2990.github.io"
 baseurl: ""
 repository: "hemalpatel2990/hemalpatel2990.github.io"
@@ -15,8 +15,8 @@ minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon
 author:
   name: "Hemal Patel"
   avatar: "/assets/images/bio-photo.jpg" # Add your photo later
-  bio: "Senior Gameplay Engineer specializing in multiplayer systems, Unreal Engine, and performance optimization."
-  location: "Remote"
+  bio: "Senior Gameplay & Systems Engineer specializing in multiplayer networking, engine optimization, and custom tools across Unreal Engine and Unity."
+  location: "Horsham, PA"
   email: "hemalpatel2990@hotmail.com"
   links:
     - label: "GitHub"

@@ -20,21 +20,21 @@ feature_row:
   - image_path: /assets/images/Weekend_Wave.webp
     alt: "The Weeknd Experience"
     title: "The Weeknd Experience (2020)"
-    excerpt: "Interactive virtual concert featuring real-time motion capture and fan interaction."
+    excerpt: "Interactive virtual concert on Wave's live-service VR platform with real-time multiplayer."
     url: "/projects/#wavexr"
     btn_label: "View Work"
     btn_class: "btn--primary"
   - image_path: /assets/images/Pentakill_Wave.webp
     alt: "Pentakill: Lost Chapter"
     title: "Pentakill: Lost Chapter (2021)"
-    excerpt: "Interactive musical journey within the League of Legends universe."
+    excerpt: "Interactive League of Legends musical experience with server-authoritative networking."
     url: "/projects/#wavexr"
     btn_label: "View Work"
     btn_class: "btn--primary"
   - image_path: /assets/images/Bieber_Wave.jpg
     alt: "Justin Bieber Experience"
     title: "Justin Bieber Experience (2021)"
-    excerpt: "Global interactive virtual concert with real-time avatar performance."
+    excerpt: "Global interactive virtual concert with real-time avatar performance and social features."
     url: "/projects/#wavexr"
     btn_label: "View Work"
     btn_class: "btn--primary"
@@ -43,21 +43,21 @@ feature_row_2:
   - image_path: /assets/images/CalvinHarris_Experience.png
     alt: "Calvin Harris Experience"
     title: "Calvin Harris Experience (2023)"
-    excerpt: "Immersive VR concert with reactive environments and multiplayer social features."
+    excerpt: "Immersive VR concert with reactive environments, engine optimizations, and multiplayer social features."
     url: "/projects/#wavexr"
     btn_label: "View Work"
     btn_class: "btn--primary"
   - image_path: /assets/images/razor-thumb.png
     alt: "Razor Edge Games"
     title: "Razor Edge Games (2015-2020)"
-    excerpt: "Engineered turn-based combat mechanics, inventory systems, and core gameplay features for strategy RPG."
+    excerpt: "Engineered turn-based combat, inventory, and survival mechanics for an open-world sci-fi RPG in Unity."
     url: "/projects/#razor-edge-games"
     btn_label: "View Work"
     btn_class: "btn--primary"
   - image_path: /assets/images/smartcloud-thumb.png
     alt: "Smartcloud Infotech"
     title: "Smartcloud Infotech (2014-2015)"
-    excerpt: "Shipped 4 commercial interactive applications with direct client collaboration and iterative development."
+    excerpt: "Shipped 4 commercial mobile applications including educational games and interactive learning platforms."
     url: "/projects/#smartcloud-infotech"
     btn_label: "View Work"
     btn_class: "btn--primary"
@@ -67,7 +67,7 @@ feature_row_2:
   <h2>Quick Stats</h2>
   <div class="stats-grid">
     <div class="stat-card">
-      <div class="stat-number">11+</div>
+      <div class="stat-number">10+</div>
       <div class="stat-label">Years in Game Dev</div>
     </div>
     <div class="stat-card">

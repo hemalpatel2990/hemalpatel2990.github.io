@@ -13,9 +13,9 @@ Feel free to reach out via email or connect with me on LinkedIn. I'm open to dis
 
 - Multiplayer systems architecture
 - Engine optimization opportunities
-- Senior roles
+- Senior/Lead gameplay & systems engineering roles
 - Contract/consulting work
-- Mentorship and collaboration
+- Technical leadership and mentorship
 
 ---
 
@@ -25,7 +25,7 @@ Feel free to reach out via email or connect with me on LinkedIn. I'm open to dis
 
 **Phone:** 908-300-4557
 
-**Location:** Remote
+**Location:** Horsham, PA
 
 ---
 

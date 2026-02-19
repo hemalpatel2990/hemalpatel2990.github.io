@@ -9,9 +9,9 @@ author_profile: true
 
 ## Professional Summary
 
-Senior Engineer with over 11 years of experience architecting high-performance systems and a versatile Generalist with expertise spanning UI, Gameplay, and Backend systems. Proven track record of working on multiple engines (Unity, Unreal), mentoring engineering teams, and shipping titles from concept to live-service. Subject matter expert in Multiplayer Networking and Performance Optimization.
+Senior Engineer with over 10 years of experience architecting high-performance systems and a versatile Generalist with expertise spanning UI, Gameplay, and Backend systems. Proven track record of working on multiple engines (Unity, Unreal), mentoring engineering teams, and shipping titles from concept to live-service. Subject matter expert in Multiplayer Networking and Performance Optimization.
 
-A collaborative technical leader who bridges the gap between creative design and engineering execution. Proven track record of helping with major engine migrations (Unity to Unreal), mentoring engineering teams, and building proprietary tools that significantly boost studio productivity. Adept at operating in lean, fast-paced environments with a history of end-to-end feature ownership—from low-level replication and multithreading to high-level UI animation and gameplay logic.
+A collaborative technical leader who bridges the gap between creative design and engineering execution. Proven track record of leading major engine migrations (Unity to Unreal), mentoring engineering teams, and building proprietary tools that significantly boost studio productivity. Adept at operating in lean, fast-paced environments with a history of end-to-end feature ownership—from low-level replication and multithreading to high-level UI animation and gameplay logic.
 
 ---
 
