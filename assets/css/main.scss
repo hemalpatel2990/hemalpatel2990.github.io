@@ -1,7 +1,0 @@
----
----
-
-$max-width: 1600px !default;
-
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
-@import "minimal-mistakes";

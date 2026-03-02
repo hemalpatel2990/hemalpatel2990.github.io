@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }} — {{ site.subtitle }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
+  {% if site.analytics.google.tracking_id %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.analytics.google.tracking_id }}', { anonymize_ip: true });
+  </script>
+  {% endif %}
+</head>
+<body>
+
+  <nav class="site-nav" id="site-nav">
+    <div class="site-nav-inner">
+      <a href="#hero" class="nav-brand">{{ site.author.name }}</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+      <div class="nav-links">
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="{{ '/assets/Hemal-SeniorProgrammer-Resume.pdf' | relative_url }}" target="_blank" class="nav-cta">Resume</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <h1>{{ site.author.name }}</h1>
+      <p class="hero-title">{{ site.subtitle }}</p>
+      <p class="hero-tagline">Engine &amp; Core Systems | Multiplayer Networking | UI Engineering | Tools &amp; Optimization</p>
+      <p class="hero-tech">Unreal Engine (UE4/5) | Unity | C++ | C# | Lua | Python</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="{{ '/assets/Hemal-SeniorProgrammer-Resume.pdf' | relative_url }}" target="_blank" class="btn btn-secondary">Download Resume</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+      <div class="hero-socials">
+        {% for link in site.author.links %}
+        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ link.label }}">
+          <i class="{{ link.icon }}"></i>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-bar" id="stats">
+    <div class="stats-bar-inner">
+      <div class="stat-item">
+        <span class="stat-num">10+</span>
+        <span class="stat-lbl">Years in Game Dev</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">80%+</span>
+        <span class="stat-lbl">Performance Gains</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">30%</span>
+        <span class="stat-lbl">Workflow Efficiency</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num">Expert</span>
+        <span class="stat-lbl">Multiplayer Networking</span>
+      </div>
+    </div>
+  </section>
+
+  {{ content }}
+
+  <footer class="site-footer">
+    <p>&copy; {{ 'now' | date: '%Y' }} {{ site.author.name }}. All rights reserved.</p>
+  </footer>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
+  <script src="{{ '/assets/js/portfolio.js' | relative_url }}"></script>
+</body>
+</html>

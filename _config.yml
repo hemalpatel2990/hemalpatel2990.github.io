@@ -7,9 +7,7 @@ url: "https://hemalpatel2990.github.io"
 baseurl: ""
 repository: "hemalpatel2990/hemalpatel2990.github.io"
 
-# Theme
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# Theme (removed - using custom portfolio layout)
 
 # Site Author
 author:
@@ -42,7 +40,6 @@ footer:
 # Reading Files
 include:
   - .htaccess
-  - _pages
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -91,20 +88,8 @@ kramdown:
 
 # Plugins
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
-
-# Archives
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
 
 # HTML Compression
 compress_html:
@@ -113,25 +98,7 @@ compress_html:
     envs: development
 
 # Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
+defaults: []
 
 # Analytics
 analytics:
