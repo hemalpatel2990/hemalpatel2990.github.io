@@ -21,8 +21,15 @@
     </div>
   </div>
   <div class="cta">
-    <a href="/Hemal-SeniorProgrammer-Resume.pdf" class="btn" download>Download Resume</a>
-    <a href="#contact" class="btn btn-outline">Contact</a>
+    <div class="primary-cta">
+      <a href="/Hemal-SeniorProgrammer-Resume.pdf" class="btn" download>Download Resume</a>
+    </div>
+    <div class="shortcuts">
+      <a href="#experience" class="btn btn-outline">Experience</a>
+      <a href="#shipped" class="btn btn-outline">Shipped Shows</a>
+      <a href="#projects" class="btn btn-outline">Technical Projects</a>
+      <a href="#contact" class="btn btn-outline">Contact</a>
+    </div>
   </div>
 </header>
 
@@ -39,17 +46,31 @@
   .expertise-bar { display: flex; gap: 40px; border-top: 1px solid var(--border); padding-top: 30px; margin-bottom: 40px; flex-wrap: wrap; }
   .expertise-item span { display: block; font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.1em; margin-bottom: 5px; font-weight: 700; }
   .expertise-item strong { font-size: 1.1rem; }
+  .cta {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .primary-cta {
+    display: flex;
+  }
+  .shortcuts {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
   .btn-outline {
     background: transparent;
     border: 1px solid var(--border);
     color: var(--text);
-    margin-left: 15px;
+    padding: 10px 20px;
+    font-size: 0.8rem;
   }
   .btn-outline:hover {
-    background: var(--border);
+    background: rgba(255, 255, 255, 0.05);
     border-color: var(--text-muted);
   }
-  .cta { margin-top: 20px; }
 
   @media (max-width: 768px) {
     h1 { font-size: 2.5rem; }
