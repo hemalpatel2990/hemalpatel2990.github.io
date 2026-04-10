@@ -1,0 +1,237 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{lmodern}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=NavyBlue, bookmarks=false, pdfencoding=auto, psdextra]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge Hemal Patel} \\ \vspace{1pt}
+    \small Horsham, PA $|$ 908-300-4557 $|$ \nolinkurl{hemalpatel2990@hotmail.com} $|$
+    \href{https://linkedin.com/in/hemalpatel2990}{LinkedIn} $|$
+    \href{https://hemalpatel2990.github.io/}{Portfolio}
+\end{center}
+
+%----------- PROFESSIONAL SUMMARY-----------
+\section*{Professional Summary}
+	\addcontentsline{toc}{section}{Professional Summary}
+	\small {Senior Software Engineer with over 10 years of experience designing and shipping core systems, engine features, and tools in Unreal Engine and Unity. Specialized in building real-time systems, scalable server-authoritative multiplayer networking, and online backend integration — spanning platform SDKs (Oculus / Meta XR SDK), dedicated server infrastructure, REST APIs, and cloud backends (AWS/Azure). Proven track record of driving technical execution on production titles, including a full engine migration to UE5, delivering measurable performance gains through profiling and optimization, and building custom tooling that accelerates entire studios. Passionate about cross-disciplinary collaboration and mentoring teams to achieve technical excellence.}
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section*{Skills}
+\addcontentsline{toc}{section}{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+			\textbf{Languages}{: C++, C\symbol{35}, Lua, Python} \\
+			\textbf{Engines \& Frameworks}{: Unreal Engine 4/5, Unity, Godot} \\
+			\textbf{Engineering}{: System Architecture, Real-Time Systems, Multiplayer Networking, Online Backend Integration, Scalable Backend Design, Multithreading} \\
+			\textbf{Online Backend}{: Oculus / Meta XR SDK, Dedicated Server Infrastructure, REST APIs, Cloud Backends (AWS, Azure), Live Ops \& Analytics Pipelines} \\
+			\textbf{Technical Skills}{: Performance Profiling (Unity Profiler, Unreal Insights), RenderDoc, Rapid Prototyping, Editor Tools \& Build Automation, CI/CD, Automated Testing, Cross-Platform Development (PC, Mobile, XR)} \\
+			\textbf{Tools}{: Git, Perforce, Visual Studio, JIRA, BuildGraph, Docker} \\
+	}}
+\end{itemize}
+
+%-----------SHIPPED TITLES-----------
+\section*{Shipped Titles}
+\addcontentsline{toc}{section}{Shipped Titles}
+\begin{itemize}[leftmargin=0.15in, label={}]
+	\small{\item{
+			\href{https://store.steampowered.com/app/453000/Wave_Beta/}{\textbf{Wave VR}} (Unity) $|$
+			\href{https://www.meta.com/experiences/wave-beta/7011698248940643/}{\textbf{Wave Beta}} (Unreal) $|$ \href{https://www.picoxr.com/global/games/wave}{\textbf{Wave Standalone}} (Unreal) $|$ \textbf{Alimentary Avengers} (Unity) \\
+			\textbf{Tafe Planetary Plus} (Unity) $|$ \textbf{E-Smart} $|$ \textbf{Be Safe, Be Smart!}
+	}}
+\end{itemize}
+
+%-----------EXPERIENCE-----------
+\section*{Experience}
+	\addcontentsline{toc}{section}{Experience}
+	\resumeSubHeadingListStart
+	\resumeSubheading
+	{Software Engineer II}{Nov 2019 -- Dec 2025}
+	{WaveXR}{Remote(Horsham, PA)}
+		\resumeItemListStart
+			\resumeItem{Led a cross-functional engineering team to develop a core Social Experience, overseeing system design, strategic decision-making, and technical mentorship for junior developers.}
+			\resumeItem{Owned large gameplay features end-to-end—from design through implementation and optimization—developing, modifying, and debugging interactive systems in C++, C\symbol{35} and Blueprints.}
+			\resumeItem{Designed and implemented server-authoritative networking architecture, solving complex replication, prediction, and latency challenges for multiplayer gameplay on PC, mobile, and XR platforms}
+			\resumeItem{Integrated online backend services including Oculus / Meta XR SDK, dedicated server infrastructure, and cloud-based REST APIs to support live multiplayer features and analytics pipelines.}
+			\resumeItem{Defined and enforced performance budgets using Unreal Insights and profiling tools, achieving 80\%+ optimization in memory and frame time on target hardware.}
+			\resumeItem{Partnered with cross-disciplinary teams (art, design, audio) to rapidly prototype gameplay features, prioritizing playable iteration to validate requirements early.}
+			\resumeItem{Developed custom editor tools and build automation to streamline content pipelines and CI/CD workflows, significantly reducing iteration time across the studio.}
+			\resumeItem{Drove code review culture and authored internal technical documentation, improving code quality and onboarding efficiency across a distributed team.}
+			\resumeItem{Diagnosed and resolved complex cross-system issues spanning physics, animation, networking, and rendering using systematic debugging and profiling methodologies.}
+			\resumeItem{Played a key role in a major engine migration from Unity to Unreal Engine 5, architecting core systems in C++ and ensuring feature parity across the full product stack.}
+		\resumeItemListEnd
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+	\resumeSubheading
+	{Unity Programmer (Contract)}{Nov 2015 -- Nov 2020}
+	{Razor Edge Games}{Remote(Horsham, PA)}
+		\resumeItemListStart
+			\resumeItem{Engineered core gameplay systems in C\symbol{35}, including turn-based simulation, inventory management, and survival mechanics, architecting clean, extensible code for long-term maintainability.}
+			\resumeItem{Collaborated with cross-disciplinary teams to architect and implement the Character Creator system from concept to completion, managing complex mesh, animation, and UI interactions.}
+			\resumeItem{Built custom editor tools and extensions that streamlined the content creation pipeline, reducing iteration time for artists and designers.}
+			\resumeItem{Debugged complex rendering and visual systems, resolving mesh-to-spline conflicts and implementing custom shaders for holographic UI effects.}
+			\resumeItem{ Established coding standards and led code reviews to ensure quality and maintainability across a distributed team.}
+		\resumeItemListEnd
+	
+	\resumeSubheading
+	{Unity Developer}{Jun 2014 -- March 2015}
+	{Smartcloud Infotech Pvt. Ltd.}{Pune, India}
+		\resumeItemListStart
+			\resumeItem{Developed and shipped multiple interactive commercial applications on mobile platforms using Unity, delivering on strict client requirements and timelines.}
+			\resumeItem{Consulted with clients to define project scope, provided accurate technical estimations, and recommended process improvements.}
+			\resumeItem{Implemented and iteratively refined UI/UX and interactive features based on direct client feedback, driving rapid iteration cycles.}
+		\resumeItemListEnd
+	
+	\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section*{Technical Projects}
+	\addcontentsline{toc}{section}{Technical Projects}
+	\resumeSubHeadingListStart
+		\resumeProjectHeading
+			{\textbf{ElementalArsenal} $|$ \small{C++, Unreal Engine 5, Gameplay Ability System, Editor Tools}}{}
+			\resumeItemListStart
+			\resumeItem{Engineered a modular gameplay plugin extending \textbf{GAS} to support data-driven equipment pipelines and automated elemental reactions, applying \textbf{vector math and collision logic} for spatial gameplay mechanics.}
+			\resumeItem{Built custom \textbf{Editor Tools} to automate asset generation, significantly accelerating the workflow for gameplay designers.}
+			\resumeItemListEnd
+			\resumeProjectHeading
+			{\textbf{UniversalDataSync (NeoDataSync)} $|$ \small{C++, Unreal Engine, Multiplayer}}{}
+			\resumeItemListStart
+			\resumeItem{Architected an Unreal Engine plugin to streamline replication of arbitrary data structures in multiplayer environments, reducing networking boilerplate for complex \textbf{gameplay states}.}
+			\resumeItemListEnd
+			\resumeProjectHeading
+			{\textbf{NeoThreads} $|$ \small{C++, Unreal Engine, Multithreading}}{}
+			\resumeItemListStart
+			\resumeItem{Developed a lightweight concurrency framework to offload computationally expensive operations from the Game Thread, improving frame stability and performance for CPU-intensive gameplay systems.}
+		\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section*{Education}
+\addcontentsline{toc}{section}{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {DePaul University}{Online}
+      {MS in Computer Game Programming} {Coursework Completed (Capstone Pending)}
+ \resumeSubheading
+      {CEPT University}{India}
+      {Master of Business Administration. Information Technology and Project Management}{2014}
+ \resumeSubheading
+      {Gujarat Technological University}{India}
+      {Bachelor of Technology in Information Technology}{2012}
+  \resumeSubHeadingListEnd
+%-------------------------------------------
+\end{document}
