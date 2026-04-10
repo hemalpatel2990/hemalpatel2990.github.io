@@ -5,14 +5,16 @@ const titles = [
     platform: "Meta Quest Store | VR Social",
     year: "2024",
     company: "WaveXR",
-    image: "/images/wavexr-thumb.png"
+    image: "/images/wavexr-thumb.png",
+    storeUrl: "https://www.meta.com/experiences/wave-beta/7011698248940643/"
   },
   {
     name: "Wave Standalone",
     platform: "PICO Store | XR Experience",
     year: "2023",
     company: "WaveXR",
-    image: "/images/wavexr-thumb.png"
+    image: "/images/wavexr-thumb.png",
+    storeUrl: "https://www.picoxr.com/global/games/wave"
   },
   {
     name: "Calvin Harris - The Virtual Experience",
@@ -40,10 +42,11 @@ const titles = [
   },
   {
     name: "Wave Beta (Legacy)",
-    platform: "Meta Quest Store | VR Social",
+    platform: "Steam Store | VR Social",
     year: "2021",
     company: "WaveXR",
-    image: "/images/wavexr-thumb.png"
+    image: "/images/wavexr-thumb.png",
+    storeUrl: "https://store.steampowered.com/app/453000/Wave_Beta/"
   },
   {
     name: "John Legend - Bigger Love",
@@ -96,14 +99,29 @@ const titles = [
   <h2>Shipped Shows & Apps</h2>
   <div class="grid">
     {titles.map(title => (
-      <div class={`title-card ${title.youtubeId ? 'has-video' : ''}`} data-video-id={title.youtubeId}>
+      <div 
+        class={`title-card ${title.youtubeId ? 'has-video' : ''} ${title.storeUrl ? 'has-store' : ''}`} 
+        data-video-id={title.youtubeId}
+        data-store-url={title.storeUrl}
+      >
         <div class="image-container">
           <img src={title.image} alt={title.name} loading="lazy" />
           {title.youtubeId && (
             <div class="play-overlay">
-              <div class="play-button">
-                <svg viewBox="0 0 24 24" fill="currentColor">
+              <div class="action-button">
+                <svg viewBox="0 0 24 24" fill="currentColor" class="play-icon">
                   <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+            </div>
+          )}
+          {title.storeUrl && !title.youtubeId && (
+            <div class="play-overlay">
+              <div class="action-button">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="store-icon">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
                 </svg>
               </div>
             </div>
@@ -131,7 +149,7 @@ const titles = [
 
 <script>
   const modal = document.getElementById('video-modal');
-  const cards = document.querySelectorAll('.title-card.has-video');
+  const cards = document.querySelectorAll('.title-card');
   const closeBtn = document.querySelector('.close-modal');
   const backdrop = document.querySelector('.modal-backdrop');
   const playerContainer = document.getElementById('player');
@@ -165,7 +183,13 @@ const titles = [
   cards.forEach(card => {
     card.addEventListener('click', () => {
       const videoId = card.getAttribute('data-video-id');
-      if (videoId) openModal(videoId);
+      const storeUrl = card.getAttribute('data-store-url');
+      
+      if (videoId) {
+        openModal(videoId);
+      } else if (storeUrl) {
+        window.open(storeUrl, '_blank');
+      }
     });
   });
 
@@ -206,7 +230,8 @@ const titles = [
   .title-card {
     transition: var(--transition);
   }
-  .title-card.has-video {
+  .title-card.has-video,
+  .title-card.has-store {
     cursor: pointer;
   }
   .image-container {
@@ -240,7 +265,7 @@ const titles = [
     transition: var(--transition);
   }
 
-  .play-button {
+  .action-button {
     width: 60px;
     height: 60px;
     background: rgba(255, 255, 255, 0.2);
@@ -254,9 +279,12 @@ const titles = [
     transition: var(--transition);
   }
 
-  .play-button svg {
+  .action-button svg {
     width: 30px;
     height: 30px;
+  }
+
+  .play-icon {
     margin-left: 4px;
   }
 
@@ -269,7 +297,7 @@ const titles = [
     opacity: 1;
   }
 
-  .title-card:hover .play-button {
+  .title-card:hover .action-button {
     transform: scale(1);
     background: var(--accent);
     color: var(--bg);
