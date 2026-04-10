@@ -1,0 +1,132 @@
+---
+const titles = [
+  {
+    name: "Calvin Harris - The Virtual Experience",
+    platform: "Virtual Concert",
+    year: "2023",
+    company: "WaveXR",
+    image: "/images/CalvinHarris_Experience.png"
+  },
+  {
+    name: "Justin Bieber - An Interactive Virtual Experience",
+    platform: "Meta Quest, PCVR",
+    year: "2021",
+    company: "WaveXR",
+    image: "/images/Bieber_Wave.jpg"
+  },
+  {
+    name: "Pentakill: Lost Chapter",
+    platform: "League of Legends Experience",
+    year: "2021",
+    company: "WaveXR",
+    image: "/images/Pentakill_Wave.webp"
+  },
+  {
+    name: "The Weeknd Experience",
+    platform: "Virtual Concert",
+    year: "2020",
+    company: "WaveXR",
+    image: "/images/Weekend_Wave.webp"
+  },
+  {
+    name: "Eden Falling",
+    platform: "PC, Turn-based RPG",
+    year: "2020",
+    company: "Razor Edge Games",
+    image: "/images/razor-thumb.png"
+  },
+  {
+    name: "Alimentary Avengers",
+    platform: "Mobile (iOS/Android)",
+    year: "2015",
+    company: "Smartcloud",
+    image: "/images/smartcloud-thumb.png"
+  }
+];
+---
+<section class="shipped">
+  <h2>Shipped Titles</h2>
+  <div class="grid">
+    {titles.map(title => (
+      <div class="title-card">
+        <div class="image-container">
+          <img src={title.image} alt={title.name} loading="lazy" />
+        </div>
+        <div class="info">
+          <h3>{title.name}</h3>
+          <p>{title.platform} | {title.year}</p>
+          <span class="company">{title.company}</span>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<style>
+  .shipped {
+    max-width: 900px;
+    margin: 120px auto;
+    padding: 0 20px;
+  }
+  h2 {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  @media (max-width: 900px) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+  .title-card {
+    transition: var(--transition);
+  }
+  .image-container {
+    width: 100%;
+    aspect-ratio: 1;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid var(--border);
+  }
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: var(--transition);
+    filter: grayscale(20%);
+  }
+  .title-card:hover .image-container img {
+    transform: scale(1.05);
+    filter: grayscale(0%);
+  }
+  h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  p {
+    margin: 5px 0;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+  .company {
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text);
+    opacity: 0.6;
+  }
+</style>

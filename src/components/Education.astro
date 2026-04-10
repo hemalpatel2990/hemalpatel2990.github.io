@@ -1,0 +1,71 @@
+---
+const education = [
+  {
+    degree: "Master of Science in Computer Game Programming",
+    institution: "DePaul University",
+    details: "Online | Coursework Complete (Capstone Pending)"
+  },
+  {
+    degree: "Master of Business Administration",
+    institution: "CEPT University",
+    details: "Information Technology & Project Management | 2014"
+  },
+  {
+    degree: "Bachelor of Technology in Information Technology",
+    institution: "Gujarat Technological University",
+    details: "2012"
+  }
+];
+---
+<section class="education">
+  <h2>Education</h2>
+  <div class="grid">
+    {education.map(item => (
+      <div class="edu-card">
+        <h3>{item.degree}</h3>
+        <p class="institution">{item.institution}</p>
+        <p class="details">{item.details}</p>
+      </div>
+    ))}
+  </div>
+</section>
+
+<style>
+  .education {
+    max-width: 900px;
+    margin: 120px auto;
+    padding: 0 20px;
+  }
+  h2 {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .edu-card {
+    transition: var(--transition);
+  }
+  h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  .institution {
+    color: var(--text);
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  .details {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+  }
+</style>
