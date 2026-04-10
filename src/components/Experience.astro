@@ -100,10 +100,16 @@ const sortedExp = exp.sort((a, b) => a.data.order - b.data.order);
     position: relative;
   }
   .content :global(li::before) {
-    content: "—";
+    content: "";
     position: absolute;
-    left: -20px;
-    color: var(--border);
+    left: -24px;
+    top: 10px;
+    width: 6px;
+    height: 6px;
+    background: var(--accent);
+    background: linear-gradient(135deg, #3b82f6, #9333ea);
+    border-radius: 1px;
+    box-shadow: 0 0 8px rgba(59, 130, 246, 0.4);
   }
 
   @media (max-width: 768px) {
