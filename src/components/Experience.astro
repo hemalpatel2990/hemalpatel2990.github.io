@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+const exp = await getCollection('experience');
+const sortedExp = exp.sort((a, b) => a.data.order - b.data.order);
+---
+<section class="experience">
+  <h2>Selected Experience</h2>
+  {sortedExp.map(async (item) => {
+    const { Content } = await item.render();
+    return (
+      <div class="item">
+        <div class="header">
+          <h3>{item.data.company}</h3>
+          <span>{item.data.date}</span>
+        </div>
+        <p class="role">{item.data.title}</p>
+        <div class="content"><Content /></div>
+      </div>
+    );
+  })}
+</section>
+
+<style>
+  .experience { max-width: 900px; margin: 80px auto; padding: 0 20px; }
+  h2 { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--text-muted); border-bottom: 1px solid var(--border); padding-bottom: 10px; margin-bottom: 40px; }
+  .item { margin-bottom: 50px; }
+  .header { display: flex; justify-content: space-between; align-items: baseline; }
+  h3 { margin: 0; font-size: 1.5rem; }
+  .role { color: var(--text-muted); font-weight: 600; margin: 5px 0 15px; }
+  .content { color: var(--text-muted); line-height: 1.6; }
+</style>
