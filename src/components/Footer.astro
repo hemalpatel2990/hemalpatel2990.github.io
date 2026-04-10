@@ -1,0 +1,105 @@
+---
+const year = new Date().getFullYear();
+---
+<footer class="footer">
+  <div class="container">
+    <div class="contact-section">
+      <h2>Get In Touch</h2>
+      <p>Available for new opportunities in Gameplay & Systems Engineering.</p>
+      <div class="links">
+        <a href="mailto:hemalpatel2990@hotmail.com" class="contact-link">
+          <span class="icon">✉</span> hemalpatel2990@hotmail.com
+        </a>
+        <a href="https://linkedin.com/in/hemalpatel2990" target="_blank" class="contact-link">
+          <span class="icon">in</span> LinkedIn
+        </a>
+        <a href="https://github.com/hemalpatel117" target="_blank" class="contact-link">
+          <span class="icon">git</span> GitHub
+        </a>
+        <a href="https://youtube.com/@HemalPatel117" target="_blank" class="contact-link">
+          <span class="icon">▶</span> YouTube
+        </a>
+      </div>
+    </div>
+    
+    <div class="bottom-bar">
+      <p>&copy; {year} Hemal Patel. Built with Astro.</p>
+      <div class="location">Horsham, PA (Remote)</div>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background: rgba(255, 255, 255, 0.02);
+    border-top: 1px solid var(--border);
+    padding: 100px 0 40px;
+    margin-top: 120px;
+  }
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .contact-section {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  .contact-section p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .contact-link {
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--transition);
+    padding: 10px 20px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+  }
+  .contact-link:hover {
+    background: var(--text);
+    color: var(--bg);
+    border-color: var(--text);
+    transform: translateY(-4px);
+  }
+  .icon {
+    font-weight: 800;
+    opacity: 0.8;
+  }
+  .bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.85rem;
+  }
+  .location {
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  @media (max-width: 768px) {
+    .links { flex-direction: column; align-items: stretch; gap: 15px; }
+    .bottom-bar { flex-direction: column; gap: 20px; text-align: center; }
+  }
+</style>
