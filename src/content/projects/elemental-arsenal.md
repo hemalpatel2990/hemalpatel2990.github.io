@@ -2,6 +2,7 @@
 title: "Elemental Arsenal"
 tech: ["Unreal Engine 5", "C++", "GAS", "Editor Scripting"]
 link: "https://github.com/hemalpatel2990/ElementalArsenal"
+image: "/images/ElementalArsenal_thumb.png"
 order: 1
 ---
 A modular Gameplay Ability System (GAS) plugin for Unreal Engine 5 designed to streamline equipment management and complex elemental interactions.

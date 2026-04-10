@@ -1,6 +1,7 @@
 ---
 title: "NeoThreads"
 tech: ["Unreal Engine", "C++", "Multithreading", "Task Graph"]
+image: "/images/NeoThread_thumb.jpg"
 order: 3
 ---
 A lightweight concurrency framework designed for Unreal Engine to optimize CPU-intensive operations by offloading them from the Game Thread.

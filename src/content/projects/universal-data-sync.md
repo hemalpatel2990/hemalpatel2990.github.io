@@ -2,6 +2,7 @@
 title: "Universal Data Sync"
 tech: ["Unreal Engine", "C++", "Networking", "Replication"]
 link: "https://github.com/hemalpatel2990/UniversalDataSync"
+image: "/images/universal-data-sync-thumb.png"
 order: 2
 ---
 A high-performance networking solution for Unreal Engine designed to solve the challenge of replicating arbitrary data structures without custom C++ code.

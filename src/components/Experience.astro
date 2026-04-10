@@ -5,27 +5,111 @@ const sortedExp = exp.sort((a, b) => a.data.order - b.data.order);
 ---
 <section class="experience">
   <h2>Selected Experience</h2>
-  {sortedExp.map(async (item) => {
-    const { Content } = await item.render();
-    return (
-      <div class="item">
-        <div class="header">
-          <h3>{item.data.company}</h3>
-          <span>{item.data.date}</span>
+  <div class="timeline">
+    {sortedExp.map(async (item) => {
+      const { Content } = await item.render();
+      return (
+        <div class="item">
+          <div class="item-header">
+            <div class="company-info">
+              <h3>{item.data.company}</h3>
+              <p class="role">{item.data.title}</p>
+            </div>
+            <div class="meta">
+              <span class="date">{item.data.date}</span>
+              <span class="location">{item.data.location}</span>
+            </div>
+          </div>
+          <div class="content">
+            <Content />
+          </div>
         </div>
-        <p class="role">{item.data.title}</p>
-        <div class="content"><Content /></div>
-      </div>
-    );
-  })}
+      );
+    })}
+  </div>
 </section>
 
 <style>
-  .experience { max-width: 900px; margin: 80px auto; padding: 0 20px; }
-  h2 { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.2em; color: var(--text-muted); border-bottom: 1px solid var(--border); padding-bottom: 10px; margin-bottom: 40px; }
-  .item { margin-bottom: 50px; }
-  .header { display: flex; justify-content: space-between; align-items: baseline; }
-  h3 { margin: 0; font-size: 1.5rem; }
-  .role { color: var(--text-muted); font-weight: 600; margin: 5px 0 15px; }
-  .content { color: var(--text-muted); line-height: 1.6; }
+  .experience {
+    max-width: 900px;
+    margin: 120px auto;
+    padding: 0 20px;
+  }
+  h2 {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+  }
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .item {
+    position: relative;
+    padding-left: 0;
+    transition: var(--transition);
+  }
+  .item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  h3 {
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 800;
+  }
+  .role {
+    color: var(--text);
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 5px 0 0;
+  }
+  .meta {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .date {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--text);
+  }
+  .location {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+  .content {
+    color: var(--text-muted);
+    line-height: 1.7;
+    font-size: 1rem;
+  }
+  .content :global(ul) {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: none;
+  }
+  .content :global(li) {
+    margin-bottom: 12px;
+    position: relative;
+  }
+  .content :global(li::before) {
+    content: "—";
+    position: absolute;
+    left: -20px;
+    color: var(--border);
+  }
+
+  @media (max-width: 768px) {
+    .item-header { flex-direction: column; gap: 10px; }
+    .meta { text-align: left; }
+    h3 { font-size: 1.5rem; }
+  }
 </style>
