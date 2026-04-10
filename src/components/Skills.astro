@@ -5,26 +5,26 @@ const skillCategories = [
     skills: ["C++", "C#", "Lua", "Python"]
   },
   {
-    name: "Engines & Frameworks",
+    name: "Engines",
     skills: ["Unreal Engine 4/5", "Unity", "Godot"]
   },
   {
     name: "Engineering",
-    skills: ["System Architecture", "Real-Time Systems", "Multiplayer Networking", "Online Backend Integration", "Scalable Backend Design", "Multithreading"]
+    skills: ["System Architecture", "Real-Time Systems", "Multiplayer Networking", "Online Backend", "Multithreading"]
   },
   {
-    name: "Technical Skills",
-    skills: ["Performance Profiling", "RenderDoc", "Rapid Prototyping", "Editor Tools & Build Automation", "CI/CD", "Automated Testing"]
+    name: "Technical",
+    skills: ["Profiling", "RenderDoc", "Rapid Prototyping", "Editor Tools", "CI/CD"]
   },
   {
     name: "Tools",
-    skills: ["Git", "Perforce", "Visual Studio", "JIRA", "BuildGraph", "Docker"]
+    skills: ["Git", "Perforce", "Visual Studio", "BuildGraph", "Docker"]
   }
 ];
 ---
-<section class="skills">
-  <h2>Skills & Expertise</h2>
-  <div class="grid">
+<section class="skills-sidebar">
+  <h2>Skills</h2>
+  <div class="categories">
     {skillCategories.map(category => (
       <div class="category">
         <h3>{category.name}</h3>
@@ -39,10 +39,8 @@ const skillCategories = [
 </section>
 
 <style>
-  .skills {
-    max-width: 900px;
-    margin: 120px auto;
-    padding: 0 20px;
+  .skills-sidebar {
+    padding: 0;
   }
   h2 {
     font-size: 0.75rem;
@@ -51,34 +49,31 @@ const skillCategories = [
     color: var(--text-muted);
     border-bottom: 1px solid var(--border);
     padding-bottom: 10px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-  }
-  @media (max-width: 768px) {
-    .grid { grid-template-columns: 1fr; gap: 30px; }
+  .categories {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
   .category h3 {
-    font-size: 1rem;
+    font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    margin: 0 0 20px;
+    margin: 0 0 15px;
     color: var(--text);
     font-weight: 700;
   }
   .tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 8px;
   }
   .tag {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid var(--border);
-    padding: 6px 14px;
+    padding: 4px 10px;
     border-radius: 4px;
     color: var(--text-muted);
     transition: var(--transition);
@@ -88,6 +83,5 @@ const skillCategories = [
     background: var(--text);
     color: var(--bg);
     border-color: var(--text);
-    transform: translateY(-2px);
   }
 </style>
