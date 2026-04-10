@@ -1,0 +1,60 @@
+---
+const navItems = [
+  { name: "Experience", href: "#experience" },
+  { name: "Titles", href: "#shipped" },
+  { name: "Projects", href: "#projects" },
+  { name: "Education", href: "#education" },
+  { name: "Contact", href: "#contact" }
+];
+---
+<nav class="shortcut-nav">
+  <div class="nav-container">
+    <div class="nav-links">
+      {navItems.map(item => (
+        <a href={item.href} class="nav-link">{item.name}</a>
+      ))}
+    </div>
+  </div>
+</nav>
+
+<style>
+  .shortcut-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(10, 10, 10, 0.8);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 15px 0;
+    animation: fadeIn 0.8s ease-out;
+  }
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+  .nav-link {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: var(--transition);
+  }
+  .nav-link:hover {
+    color: var(--text);
+  }
+
+  @media (max-width: 768px) {
+    .nav-links { gap: 15px; overflow-x: auto; padding-bottom: 5px; width: 100%; justify-content: space-around; }
+    .nav-link { font-size: 0.7rem; white-space: nowrap; }
+    .nav-container { padding: 0 20px; }
+  }
+</style>

@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 const exp = await getCollection('experience');
 const sortedExp = exp.sort((a, b) => a.data.order - b.data.order);
 ---
-<section class="experience">
+<section class="experience" id="experience">
   <h2>Selected Experience</h2>
   <div class="timeline">
     {sortedExp.map(async (item) => {
