@@ -22,6 +22,7 @@
   </div>
   <div class="cta">
     <a href="/Hemal-SeniorProgrammer-Resume.pdf" class="btn" download>Download Resume</a>
+    <a href="#contact" class="btn btn-outline">Contact</a>
   </div>
 </header>
 
@@ -38,6 +39,16 @@
   .expertise-bar { display: flex; gap: 40px; border-top: 1px solid var(--border); padding-top: 30px; margin-bottom: 40px; flex-wrap: wrap; }
   .expertise-item span { display: block; font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.1em; margin-bottom: 5px; font-weight: 700; }
   .expertise-item strong { font-size: 1.1rem; }
+  .btn-outline {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text);
+    margin-left: 15px;
+  }
+  .btn-outline:hover {
+    background: var(--border);
+    border-color: var(--text-muted);
+  }
   .cta { margin-top: 20px; }
 
   @media (max-width: 768px) {
