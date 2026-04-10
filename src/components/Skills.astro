@@ -1,0 +1,93 @@
+---
+const skillCategories = [
+  {
+    name: "Languages",
+    skills: ["C++", "C#", "Lua", "Python"]
+  },
+  {
+    name: "Engines & Frameworks",
+    skills: ["Unreal Engine 4/5", "Unity", "Godot"]
+  },
+  {
+    name: "Engineering",
+    skills: ["System Architecture", "Real-Time Systems", "Multiplayer Networking", "Online Backend Integration", "Scalable Backend Design", "Multithreading"]
+  },
+  {
+    name: "Technical Skills",
+    skills: ["Performance Profiling", "RenderDoc", "Rapid Prototyping", "Editor Tools & Build Automation", "CI/CD", "Automated Testing"]
+  },
+  {
+    name: "Tools",
+    skills: ["Git", "Perforce", "Visual Studio", "JIRA", "BuildGraph", "Docker"]
+  }
+];
+---
+<section class="skills">
+  <h2>Skills & Expertise</h2>
+  <div class="grid">
+    {skillCategories.map(category => (
+      <div class="category">
+        <h3>{category.name}</h3>
+        <div class="tags">
+          {category.skills.map(skill => (
+            <span class="tag">{skill}</span>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<style>
+  .skills {
+    max-width: 900px;
+    margin: 120px auto;
+    padding: 0 20px;
+  }
+  h2 {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  @media (max-width: 768px) {
+    .grid { grid-template-columns: 1fr; gap: 30px; }
+  }
+  .category h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0 0 20px;
+    color: var(--text);
+    font-weight: 700;
+  }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .tag {
+    font-size: 0.85rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    padding: 6px 14px;
+    border-radius: 4px;
+    color: var(--text-muted);
+    transition: var(--transition);
+    font-weight: 500;
+  }
+  .tag:hover {
+    background: var(--text);
+    color: var(--bg);
+    border-color: var(--text);
+    transform: translateY(-2px);
+  }
+</style>
