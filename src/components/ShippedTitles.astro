@@ -1,6 +1,13 @@
 ---
 const titles = [
   {
+    name: "Wave Standalone",
+    platform: "PICO Store | XR Experience",
+    year: "2023",
+    company: "WaveXR",
+    image: "/images/wavexr-thumb.png"
+  },
+  {
     name: "Calvin Harris - The Virtual Experience",
     platform: "Virtual Concert",
     year: "2023",
@@ -9,17 +16,24 @@ const titles = [
   },
   {
     name: "Justin Bieber - An Interactive Virtual Experience",
-    platform: "Meta Quest, PCVR",
+    platform: "Virtual Concert | Meta Quest, PCVR",
     year: "2021",
     company: "WaveXR",
     image: "/images/Bieber_Wave.jpg"
   },
   {
     name: "Pentakill: Lost Chapter",
-    platform: "League of Legends Experience",
+    platform: "Virtual Concert | League of Legends",
     year: "2021",
     company: "WaveXR",
     image: "/images/Pentakill_Wave.webp"
+  },
+  {
+    name: "Wave Beta",
+    platform: "Meta Quest Store | VR Social",
+    year: "2021",
+    company: "WaveXR",
+    image: "/images/wavexr-thumb.png"
   },
   {
     name: "John Legend - Bigger Love",
@@ -66,7 +80,7 @@ const titles = [
 ];
 ---
 <section class="shipped" id="shipped">
-  <h2>Shipped Titles</h2>
+  <h2>Shipped Shows & Apps</h2>
   <div class="grid">
     {titles.map(title => (
       <div class="title-card">
