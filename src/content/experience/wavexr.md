@@ -14,3 +14,5 @@ order: 1
 - Built a UE5 Segment analytics subsystem batching up to 20 timestamped REST events before dispatch, callable from any game system.
 - Integrated Meta Horizon party and player-blocking via Oculus SDK, with correct mute/unmute propagation across connected players.
 - Drove Unity to UE5 engine migration, architecting core systems in C++ and maintaining feature parity across the full product stack.
+- Engineered interactive systems powering 6 live mocap concert experiences, each with unique production requirements and hard broadcast deadlines across Unity and Unreal Engine.
+- Supported live show operations via Grafana monitoring, triaging client-side issues in real time alongside DevOps to maintain stability during active broadcasts.
