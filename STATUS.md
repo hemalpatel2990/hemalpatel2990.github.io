@@ -28,6 +28,7 @@ This section maps where resume data lives. Update these files when the Resume PD
 - [x] **Migration:** Successfully migrated from Jekyll to Astro (April 2026).
 - [ ] **UI Polish:** Brighten UI elements (Target: `src/layouts/Layout.astro` CSS variables).
 - [x] **Consistency:** Website content synchronized with April 2026 Resume PDF (Updated April 11, 2026).
+- [x] **Content Sync:** Shipped Titles updated with accurate Unity/Unreal tech stacks and system details (Node-RED, Editor Tools).
 
 ## Maintenance Notes
 - When adding a new experience or project, create a new `.md` file in `src/content/`.
