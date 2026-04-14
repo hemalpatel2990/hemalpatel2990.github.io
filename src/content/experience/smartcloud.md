@@ -1,7 +1,7 @@
 ---
 title: "Unity Developer"
-company: "Smartcloud Infotech"
-date: "Jun 2014 – Mar 2015"
+company: "Smartcloud Infotech Pvt. Ltd."
+date: "Jun 2014 – March 2015"
 location: "Pune, India"
 order: 3
 ---

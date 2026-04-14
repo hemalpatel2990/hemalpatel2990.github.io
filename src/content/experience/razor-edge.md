@@ -1,7 +1,7 @@
 ---
 title: "Unity Programmer (Contract)"
 company: "Razor Edge Games"
-date: "Nov 2015 – Feb 2020"
+date: "Nov 2015 – Nov 2019"
 location: "Remote"
 order: 2
 ---

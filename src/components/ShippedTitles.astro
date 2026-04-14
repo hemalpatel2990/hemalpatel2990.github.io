@@ -6,7 +6,8 @@ const titles = [
     year: "2024",
     company: "WaveXR",
     image: "/images/wavexr-thumb.png",
-    storeUrl: "https://www.meta.com/experiences/wave-beta/7011698248940643/"
+    storeUrl: "https://www.meta.com/experiences/wave-beta/7011698248940643/",
+    contribution: "Architected production networking system using NATS and Unreal Engine, enabling real-time player control of live stage visuals."
   },
   {
     name: "Wave Standalone",
@@ -14,7 +15,8 @@ const titles = [
     year: "2023",
     company: "WaveXR",
     image: "/images/wavexr-thumb.png",
-    storeUrl: "https://www.picoxr.com/global/games/wave"
+    storeUrl: "https://www.picoxr.com/global/games/wave",
+    contribution: "Integrated Meta XR SDK and optimized performance for standalone VR headsets (Oculus Quest/PICO)."
   },
   {
     name: "Calvin Harris - The Virtual Experience",
@@ -22,7 +24,8 @@ const titles = [
     year: "2023",
     company: "WaveXR",
     image: "/images/CalvinHarris_Experience.png",
-    youtubeId: "9BncRHR98tk"
+    youtubeId: "9BncRHR98tk",
+    contribution: "Engineered interactive systems and optimized Niagara particle effects for a massive live-streamed VR concert."
   },
   {
     name: "Justin Bieber - An Interactive Virtual Experience",
@@ -30,7 +33,8 @@ const titles = [
     year: "2021",
     company: "WaveXR",
     image: "/images/Bieber_Wave.jpg",
-    youtubeId: "UAhGvhvcoyY"
+    youtubeId: "UAhGvhvcoyY",
+    contribution: "Built multiplayer networking and interactive gameplay features for a high-fidelity virtual experience on Meta Quest and PCVR."
   },
   {
     name: "Pentakill: Lost Chapter",
@@ -38,7 +42,8 @@ const titles = [
     year: "2021",
     company: "WaveXR",
     image: "/images/Pentakill_Wave.webp",
-    youtubeId: "_rsW0a7JmBs"
+    youtubeId: "_rsW0a7JmBs",
+    contribution: "Developed custom tools for real-time visual triggers and optimized engine performance for a League of Legends branded experience."
   },
   {
     name: "Wave Beta (Legacy)",
@@ -46,7 +51,8 @@ const titles = [
     year: "2021",
     company: "WaveXR",
     image: "/images/wavexr-thumb.png",
-    storeUrl: "https://store.steampowered.com/app/453000/Wave_Beta/"
+    storeUrl: "https://store.steampowered.com/app/453000/Wave_Beta/",
+    contribution: "Developed a C# UE5 build-config tool and custom PAK packager, automating credential injection across 15 environments."
   },
   {
     name: "John Legend - Bigger Love",
@@ -54,7 +60,8 @@ const titles = [
     year: "2020",
     company: "WaveXR",
     image: "/images/JohnLegend_Wave.png",
-    youtubeId: "eGy64l9Yuuw"
+    youtubeId: "eGy64l9Yuuw",
+    contribution: "Supported live mocap operations and implemented interactive visual systems for the 'Bigger Love' virtual concert."
   },
   {
     name: "Tinashe - Open Session",
@@ -62,7 +69,8 @@ const titles = [
     year: "2020",
     company: "WaveXR",
     image: "/images/Tinashe_Wave.png",
-    youtubeId: "gxCEmbX-Xdk"
+    youtubeId: "gxCEmbX-Xdk",
+    contribution: "Architected core gameplay systems and managed real-time performance data for a live-streamed VR event."
   },
   {
     name: "The Weeknd Experience",
@@ -70,28 +78,32 @@ const titles = [
     year: "2020",
     company: "WaveXR",
     image: "/images/Weekend_Wave.webp",
-    youtubeId: "uViueiV8fME"
+    youtubeId: "uViueiV8fME",
+    contribution: "Engineered core visual interaction systems and supported high-pressure live broadcast operations."
   },
   {
     name: "Eden Falling",
     platform: "PC, Turn-based RPG",
     year: "2020",
     company: "Razor Edge Games",
-    image: "/images/razor-thumb.png"
+    image: "/images/razor-thumb.png",
+    contribution: "Architected the Character Creator system and engineered core gameplay systems in C#."
   },
   {
     name: "Alimentary Avengers",
     platform: "Mobile (iOS/Android)",
     year: "2015",
     company: "Smartcloud",
-    image: "/images/smartcloud-thumb.png"
+    image: "/images/smartcloud-thumb.png",
+    contribution: "Developed and shipped an interactive commercial mobile application using Unity."
   },
   {
     name: "Tafe Planetary Plus",
     platform: "Education / VR",
     year: "2014",
     company: "Smartcloud",
-    image: "/images/smartcloud-thumb.png"
+    image: "/images/smartcloud-thumb.png",
+    contribution: "Implemented UI/UX and interactive features for a VR educational application."
   }
 ];
 ---
@@ -106,6 +118,9 @@ const titles = [
       >
         <div class="image-container">
           <img src={title.image} alt={title.name} loading="lazy" />
+          <div class="hover-overlay">
+            <p class="contribution">{title.contribution}</p>
+          </div>
           {title.youtubeId && (
             <div class="play-overlay">
               <div class="action-button">
@@ -295,6 +310,35 @@ const titles = [
 
   .title-card:hover .play-overlay {
     opacity: 1;
+  }
+
+  .hover-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    opacity: 0;
+    transition: var(--transition);
+    z-index: 1;
+    text-align: center;
+  }
+
+  .title-card:hover .hover-overlay {
+    opacity: 1;
+  }
+
+  .contribution {
+    color: white;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin: 0;
+    font-weight: 500;
   }
 
   .title-card:hover .action-button {
