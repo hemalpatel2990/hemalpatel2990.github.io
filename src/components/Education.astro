@@ -3,17 +3,17 @@ const education = [
   {
     degree: "Master of Science in Computer Game Programming",
     institution: "DePaul University",
-    details: "Online | In Progress"
+    details: "Coursework Completed"
   },
   {
     degree: "Master of Business Administration",
     institution: "CEPT University",
-    details: "Information Technology & Project Management | 2014"
+    details: "Information Technology & Project Management"
   },
   {
     degree: "Bachelor of Technology in Information Technology",
     institution: "Gujarat Technological University",
-    details: "2012"
+    details: ""
   }
 ];
 ---
@@ -24,7 +24,7 @@ const education = [
       <div class="edu-card">
         <h3>{item.degree}</h3>
         <p class="institution">{item.institution}</p>
-        <p class="details">{item.details}</p>
+        {item.details && <p class="details">{item.details}</p>}
       </div>
     ))}
   </div>

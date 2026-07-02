@@ -9,3 +9,9 @@ dist
 .astro
 .workspace/
 .superpowers/
+
+# AI and local documentation files
+.claude/
+docs/
+GEMINI.md
+STATUS.md

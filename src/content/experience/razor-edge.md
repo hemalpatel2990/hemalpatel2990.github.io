@@ -2,11 +2,9 @@
 title: "Unity Programmer (Contract)"
 company: "Razor Edge Games"
 date: "Nov 2015 – Nov 2019"
-location: "Remote"
-order: 2
+location: "Remote (Horsham, PA)"
+order: 4
 ---
-- Engineered core gameplay systems in C#, including turn-based simulation, inventory management, and survival mechanics, architecting clean, extensible code for long-term maintainability.
-- Collaborated with cross-disciplinary teams to architect and implement the Character Creator system from concept to completion, managing complex mesh, animation, and UI interactions.
-- Built custom editor tools and extensions that streamlined the content creation pipeline, reducing iteration time for artists and designers.
-- Debugged complex rendering and visual systems, resolving mesh-to-spline conflicts and implementing custom shaders for holographic UI effects.
-- Established coding standards and led code reviews to ensure quality and maintainability across a distributed team.
+- Engineered core runtime mechanics in C#, including modular inventory frameworks and turn-based simulation systems designed for long-term scalability.
+- Built an end-to-end Character Creator system handling complex mesh deformations, skeleton animation states, and UI sub-frameworks, reducing asset implementation time for design teams.
+- Developed a custom beat-detection framework and an intuitive, script-configurable audio editor tool from scratch, so designers could synchronize runtime gameplay mechanics directly to audio tracks.

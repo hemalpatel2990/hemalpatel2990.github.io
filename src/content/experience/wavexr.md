@@ -2,19 +2,17 @@
 title: "Software Engineer II"
 company: "WaveXR"
 date: "Nov 2019 – Dec 2025"
-location: "Remote"
-order: 1
+location: "Remote (Horsham, PA)"
+order: 2
 ---
-- Architected a production networking system (NATS + Unreal) with Manager/Controller/UI pipelines, enabling real-time player control of live stage visuals; shipped the solution and conducted user testing to confirm stability.
-- Rebuilt the concurrent Niagara particle system using the command pattern, boosting frame rate from 15 fps to 36 fps under full audience load, and resolved RPC/Blueprint bottlenecks via Unreal Insights, cutting frame time and memory usage by over 80%.
-- Developed a C++ UE5 build-config tool (Unreal Build Tool XML) and custom PAK packager, automating credential injection and stripping across 15 environments; containerized supporting services with Docker and integrated the toolchain into CI/CD, adopted studio-wide.
-- Diagnosed and resolved Windows-to-Linux build failures including strict type enforcement differences, path separator incompatibilities, and threading race conditions caused by OS-level scheduler divergence — maintaining a stable, reproducible cross-platform build.
-- Operated Linux server instances during live concert broadcasts — pulling Grafana logs, configuring server-side services, and resolving runtime failures under hard broadcast deadlines.
-- Validated dedicated server builds using WSL and Docker containers, reproducing Linux-specific runtime behavior and confirming server stability prior to cloud deployment.
-- Integrated PlayFab matchmaking, inventory, and player login systems across client and server boundaries.
-- Designed a NATS-based interaction service routing high-frequency performance data server-side, offloading Unreal replication and enabling multi-instance distribution.
-- Led 2 engineers and 2 tech artists on the Social Experience feature from prototype to production.
-- Drove Unity to UE5 engine migration, architecting core systems in C++ and maintaining feature parity across the full product stack.
-- Built a UE5 Segment analytics subsystem batching up to 20 timestamped REST events before dispatch, callable from any game system.
-- Engineered interactive systems powering 6 live mocap concert experiences, each with unique production requirements and hard broadcast deadlines across Unity and Unreal Engine.
-- Supported live show operations via Grafana monitoring, triaging client-side issues in real time alongside DevOps to maintain stability during active broadcasts.
+- Managed a team of four engineers and technical artists to deliver the Social Venue platform that includes live gameplay frameworks. Coordinated directly with producers and product stakeholders to define scope and technical roadmaps.
+- Architected a custom Unreal-to-NATS messaging layer to handle real-time performer and attendee data serialization. Built accompanying UMG editor tools that allowed technical artists to configure data routing without writing code.
+- Designed a proxy system over NATS streams using a decoupled C++ MVVM pattern. This allowed runtime configuration overrides via Blueprints, isolating visual scripting from core systems and supporting cross-peripheral input switching.
+- Rebuilt a high-draw Niagara particle system using the command pattern to optimize execution under full client load. Stabilized real-time performance on the hardware-constrained Quest 3, recovering frame rate from 15 fps to 36 fps with ASW enabled.
+- Profiled and eliminated critical RPC bottlenecks and Blueprint overhead using Unreal Insights. Achieved an 80% reduction in frame times and optimized runtime memory allocation.
+- Bypassed slow TeamCity CI/CD build loops by reverse-engineering Unreal's packaging pipeline to create a custom, UMG-based Editor Export Tool, letting content creators instantly generate local build artifacts.
+- Maintained cross-platform runtime systems across Unity and UE5 for live, high-occupancy virtual concerts. Partnered with DevOps to monitor and triage client-side infrastructure anomalies using Grafana.
+- Identified and resolved deterministic cross-platform bugs between Windows and Linux builds, addressing path separator issues and rendering discrepancies.
+- Built a modular telemetry subsystem that batched network events before dispatch, minimizing local network overhead and optimizing data pipeline traffic.
+- Integrated Meta Horizon party features and player-blocking mechanics via the Oculus SDK, keeping replication states synced across connected peers.
+- Migrated legacy virtual environment codebases from Unity to UE5, porting core subsystems to native C++ to retain feature parity.

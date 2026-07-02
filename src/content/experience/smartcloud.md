@@ -1,12 +1,10 @@
 ---
 title: "Unity Developer"
 company: "Smartcloud Infotech Pvt. Ltd."
-date: "Jun 2014 – March 2015"
+date: "Jun 2014 – Mar 2015"
 location: "Pune, India"
-order: 3
+order: 5
 ---
-- Developed and shipped multiple interactive commercial applications on mobile platforms using Unity, delivering on strict client requirements and timelines.
-- Consulted directly with clients to define project scope, requirements, and timelines.
-- Implemented and iteratively refined UI/UX based on client feedback, integrating UI animation and transitions. 
-- Provided accurate project estimations and timeline planning.
-- Suggested and implemented process improvements for development workflow.
+- Developed and shipped three real-time interactive applications across different genres, adhering strictly to engine performance targets and project deadlines.
+- Provided technical estimates and structured workflow recommendations during early discovery phases to establish stable engine pipelines.
+- Implemented UI layout rendering systems and core gameplay interaction loops, iterating rapidly based on user testing data to maximize runtime performance.

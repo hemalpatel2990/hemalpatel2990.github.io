@@ -7,5 +7,5 @@ order: 1
 ---
 A modular Gameplay Ability System (GAS) plugin for Unreal Engine 5 designed to streamline equipment management and complex elemental interactions.
 
-- Engineered a modular gameplay plugin extending GAS to support data-driven equipment pipelines and automated elemental reactions, applying vector math and collision logic for spatial gameplay mechanics.
-- Built custom Editor Tools to automate asset generation, significantly accelerating the workflow for gameplay designers.
+- Designed and implemented a modular plugin extending GAS to support custom equipment pipelines and automated elemental reactions, applying vector math and collision logic for spatial gameplay mechanics.
+- Built custom Editor Tools to automate asset generation for GAS, accelerating the workflow for gameplay designers, using Slate and UMG.
