@@ -3,7 +3,8 @@ title: "Software Engineer II"
 company: "WaveXR"
 date: "Nov 2019 – Dec 2025"
 location: "Remote (Horsham, PA)"
-order: 2
+order: 1
+category: "primary"
 ---
 - Managed a team of four engineers and technical artists to deliver the Social Venue platform that includes live gameplay frameworks. Coordinated directly with producers and product stakeholders to define scope and technical roadmaps.
 - Architected a custom Unreal-to-NATS messaging layer to handle real-time performer and attendee data serialization. Built accompanying UMG editor tools that allowed technical artists to configure data routing without writing code.

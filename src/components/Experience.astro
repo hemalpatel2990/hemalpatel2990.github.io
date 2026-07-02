@@ -1,12 +1,13 @@
 ---
 import { getCollection } from 'astro:content';
 const exp = await getCollection('experience');
-const sortedExp = exp.sort((a, b) => a.data.order - b.data.order);
+const primaryExp = exp.filter(item => item.data.category !== 'additional').sort((a, b) => a.data.order - b.data.order);
+const additionalExp = exp.filter(item => item.data.category === 'additional').sort((a, b) => a.data.order - b.data.order);
 ---
 <section class="experience" id="experience">
   <h2>Selected Experience</h2>
   <div class="timeline">
-    {sortedExp.map(async (item) => {
+    {primaryExp.map(async (item) => {
       const { Content } = await item.render();
       return (
         <div class="item">
@@ -27,6 +28,34 @@ const sortedExp = exp.sort((a, b) => a.data.order - b.data.order);
       );
     })}
   </div>
+
+  {additionalExp.length > 0 && (
+    <div class="additional-section">
+      <h2 class="sub-section-title">Additional Experience</h2>
+      <div class="timeline">
+        {additionalExp.map(async (item) => {
+          const { Content } = await item.render();
+          return (
+            <div class="item">
+              <div class="item-header">
+                <div class="company-info">
+                  <h3>{item.data.company}</h3>
+                  <p class="role">{item.data.title}</p>
+                </div>
+                <div class="meta">
+                  <span class="date">{item.data.date}</span>
+                  <span class="location">{item.data.location}</span>
+                </div>
+              </div>
+              <div class="content">
+                <Content />
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  )}
 </section>
 
 <style>
@@ -110,6 +139,19 @@ const sortedExp = exp.sort((a, b) => a.data.order - b.data.order);
     background: linear-gradient(135deg, #3b82f6, #9333ea);
     border-radius: 1px;
     box-shadow: 0 0 8px rgba(59, 130, 246, 0.4);
+  }
+
+  .additional-section {
+    margin-top: 100px;
+  }
+  .sub-section-title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 60px;
   }
 
   @media (max-width: 768px) {
