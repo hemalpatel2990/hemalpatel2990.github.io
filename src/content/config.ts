@@ -9,6 +9,7 @@ const experience = defineCollection({
     location: z.string(),
     order: z.number(),
     category: z.string().optional(),
+    tags: z.array(z.string()).optional(),
   }),
 });
 

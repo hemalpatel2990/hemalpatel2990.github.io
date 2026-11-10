@@ -3,28 +3,30 @@ const education = [
   {
     degree: "Master of Science in Computer Game Programming",
     institution: "DePaul University",
-    details: "Coursework Completed"
+    details: "Coursework Completed &bull; Focus on Advanced Graphics, Engine Architecture & C++"
   },
   {
-    degree: "Master of Business Administration",
+    degree: "Master of Business Administration (MBA)",
     institution: "CEPT University",
     details: "Information Technology & Project Management"
   },
   {
     degree: "Bachelor of Technology in Information Technology",
     institution: "Gujarat Technological University",
-    details: ""
+    details: "Foundations in Data Structures, Algorithms & Computer Systems"
   }
 ];
 ---
 <section class="education" id="education">
-  <h2>Education</h2>
+  <div class="section-header">
+    <h2>Education & Academic Background</h2>
+  </div>
   <div class="grid">
     {education.map(item => (
       <div class="edu-card">
         <h3>{item.degree}</h3>
         <p class="institution">{item.institution}</p>
-        {item.details && <p class="details">{item.details}</p>}
+        {item.details && <p class="details" set:html={item.details} />}
       </div>
     ))}
   </div>
@@ -32,39 +34,62 @@ const education = [
 
 <style>
   .education {
-    margin: 0 0 120px;
+    margin: 0 0 100px;
     padding: 0;
   }
-  h2 {
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    color: var(--text-muted);
+
+  .section-header {
     border-bottom: 1px solid var(--border);
-    padding-bottom: 10px;
-    margin-bottom: 60px;
+    padding-bottom: 12px;
+    margin-bottom: 35px;
   }
+
+  h2 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--text-muted);
+    margin: 0;
+    font-weight: 700;
+  }
+
   .grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 25px;
   }
+
   .edu-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px 24px;
     transition: var(--transition);
   }
+
+  .edu-card:hover {
+    border-color: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.035);
+  }
+
   h3 {
     margin: 0;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 700;
-  }
-  .institution {
     color: var(--text);
-    font-weight: 600;
-    font-size: 1rem;
-    margin: 5px 0;
   }
+
+  .institution {
+    color: #60a5fa;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin: 5px 0 6px;
+  }
+
   .details {
     color: var(--text-muted);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    margin: 0;
+    line-height: 1.5;
   }
 </style>

@@ -1,20 +1,46 @@
 ---
 const skillCategories = [
   {
-    name: "Languages",
-    skills: ["C++", "C#", "Python", "Lua"]
-  },
-  {
     name: "Engines",
     skills: ["Unreal Engine 4/5", "Unity", "Godot", "Defold", "Panda3D"]
   },
   {
+    name: "Languages",
+    skills: ["C++", "C#", "Python", "Lua"]
+  },
+  {
     name: "Gameplay Engineering",
-    skills: ["Multiplayer Networking", "Server-Authoritative Architecture", "Gameplay Systems", "UI", "Multithreading", "Performance Profiling & Optimization"]
+    skills: [
+      "GameMode / GameState / PlayerState",
+      "Server-Authoritative Architecture",
+      "Multiplayer Networking & Replication",
+      "Gameplay Ability System (GAS / GMAS)",
+      "Gameplay Systems",
+      "Slate & UMG UI",
+      "Multithreading (Task Graph)",
+      "Performance Profiling & Optimization"
+    ]
   },
   {
     name: "Tools & Pipeline",
-    skills: ["Editor Tools", "CI/CD", "BuildGraph", "RenderDoc", "Git", "Perforce", "Docker", "Linux", "JIRA"]
+    skills: [
+      "Designer & Artist Editor Tools",
+      "CI/CD Automation",
+      "BuildGraph",
+      "RenderDoc",
+      "Unreal Insights",
+      "Git & Perforce",
+      "Docker & Linux",
+      "JIRA"
+    ]
+  },
+  {
+    name: "Platforms",
+    skills: [
+      "PC (Windows, Linux)",
+      "Meta Quest 3 (Standalone VR)",
+      "Steam & Pico XR"
+    ]
   },
   {
     name: "Online & Backend",
@@ -26,8 +52,8 @@ const skillCategories = [
   }
 ];
 ---
-<section class="skills-sidebar">
-  <h2>Skills</h2>
+<section class="skills-sidebar" id="skills">
+  <h2>Technical Competencies</h2>
   <div class="categories">
     {skillCategories.map(category => (
       <div class="category">
@@ -53,40 +79,40 @@ const skillCategories = [
     color: var(--text-muted);
     border-bottom: 1px solid var(--border);
     padding-bottom: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
   .categories {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 24px;
   }
   .category h3 {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    margin: 0 0 15px;
+    margin: 0 0 10px;
     color: var(--text);
     font-weight: 700;
   }
   .tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 6px;
   }
   .tag {
     font-size: 0.75rem;
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(255, 255, 255, 0.04);
     border: 1px solid var(--border);
-    padding: 4px 10px;
+    padding: 4px 9px;
     border-radius: 4px;
     color: var(--text-muted);
     transition: var(--transition);
     font-weight: 500;
+    line-height: 1.3;
   }
   .tag:hover {
-    background: var(--text);
-    color: var(--bg);
-    border-color: var(--text);
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--text);
+    border-color: rgba(255, 255, 255, 0.3);
   }
 </style>
-

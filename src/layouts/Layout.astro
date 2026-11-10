@@ -91,11 +91,11 @@ const { title } = Astro.props;
 	:root {
 		--bg: #0a0a0a;
 		--text: #ffffff;
-		--text-muted: #a3a3a3;
+		--text-muted: #b0b0b0;
 		--accent: #ffffff;
-		--border: #262626;
-		--glow-1: rgba(59, 130, 246, 0.08); /* Blue */
-		--glow-2: rgba(147, 51, 234, 0.08); /* Purple */
+		--border: #2e2e2e;
+		--glow-1: rgba(59, 130, 246, 0.12); /* Blue */
+		--glow-2: rgba(147, 51, 234, 0.10); /* Purple */
 		--transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 	}
 	* {
@@ -106,6 +106,9 @@ const { title } = Astro.props;
 		background: var(--bg);
 		color: var(--text);
 		scroll-behavior: smooth;
+		scroll-padding-top: 80px;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
 	}
 	body {
 		margin: 0;

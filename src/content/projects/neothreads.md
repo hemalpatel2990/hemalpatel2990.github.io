@@ -1,10 +1,10 @@
 ---
 title: "NeoThreads"
-tech: ["Unreal Engine", "C++", "Multithreading", "Task Graph"]
+tech: ["Unreal Engine", "Modern C++", "Multithreading", "Task Graph"]
 image: "/images/NeoThread_thumb.jpg"
 order: 3
 ---
-A lightweight concurrency framework designed for Unreal Engine to optimize CPU-intensive operations by offloading them from the Game Thread.
+A lightweight concurrency framework for Unreal Engine to safely offload heavy computations from the Game Thread.
 
-- Developed a lightweight concurrency framework to safely offload heavy calculations from the Game Thread, improving frame stability and performance for CPU-intensive gameplay systems.
-- Built using C++ and the Unreal Task Graph for seamless integration and optimal performance.
+- Developed an asynchronous task management layer using C++ and the Unreal Task Graph, keeping the Game Thread free of stalls during intensive gameplay calculations.
+- Significantly improves runtime frame stability and frame pacing for CPU-heavy simulation and AI workloads.

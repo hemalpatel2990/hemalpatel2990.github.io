@@ -1,34 +1,68 @@
 <header class="hero">
+  <div class="availability-badge">
+    <span class="status-dot"></span>
+    <span>Available for Senior / Lead Gameplay & Systems Engineering Roles (Remote)</span>
+  </div>
+
   <div class="name-block">
     <h1>Hemal Patel</h1>
     <p class="title">Senior Gameplay & Systems Engineer</p>
+    <p class="location-sub">Horsham, PA &bull; Remote</p>
   </div>
-  <div class="impact-statement">
-    <p><strong>11+ years</strong> shipping gameplay systems, multiplayer networking, and engine tooling in <strong>UE5 and Unity</strong>. Solo-architected a production networking system and recovered frame rates from <strong>15 to 36 FPS</strong> via Niagara system overhauls. Led cross-discipline teams and built studio-wide CI/CD pipelines.</p>
+
+  <div class="human-intro">
+    <p>
+      I'm a gameplay and systems engineer with over <strong>11 years of experience</strong> crafting multiplayer architecture, server-authoritative gameplay loops, and designer-facing tools in <strong>C++ on Unreal Engine 5</strong> (and Unity).
+    </p>
+    <p>
+      I specialize in the space where deep engine engineering meets creative collaboration: building robust networking with Unreal's GameMode, GameState, and Gameplay Ability System (GAS), rescuing frame rates on constrained hardware like the <strong>Meta Quest 3</strong> (from 15 to 36 FPS), and engineering custom Slate & UMG editor tools that give game designers and technical artists the building blocks to iterate fearlessly.
+    </p>
   </div>
-  <div class="expertise-bar">
-    <div class="expertise-item">
-      <span>Engines</span>
-      <strong>Unreal Engine 5 | Unity</strong>
+
+  <div class="recruiter-metrics">
+    <div class="metric-card">
+      <span class="metric-val">11+</span>
+      <span class="metric-label">Years Experience</span>
     </div>
-    <div class="expertise-item">
-      <span>Languages</span>
-      <strong>C++ | C# | Lua | Python</strong>
+    <div class="metric-card">
+      <span class="metric-val">UE5 & Unity</span>
+      <span class="metric-label">C++ & C# Systems</span>
     </div>
-    <div class="expertise-item">
-      <span>Specialty</span>
-      <strong>Networking & Engine Tooling</strong>
+    <div class="metric-card">
+      <span class="metric-val">Multiplayer & GAS</span>
+      <span class="metric-label">Server-Authoritative</span>
+    </div>
+    <div class="metric-card">
+      <span class="metric-val">Quest 3 & PC</span>
+      <span class="metric-label">Performance & Tools</span>
     </div>
   </div>
-  <div class="cta">
-    <div class="primary-cta">
-      <a href="/Hemal-SeniorProgrammer-Resume.pdf" class="btn" download>Download Resume</a>
+
+  <div class="cta-group">
+    <div class="primary-actions">
+      <a href="/Hemal-SeniorProgrammer-Resume.pdf" class="btn btn-primary" download>
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7 10 12 15 17 10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        Download Resume (PDF)
+      </a>
+      <a href="#contact" class="btn btn-contact">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+        </svg>
+        Get In Touch
+      </a>
     </div>
-    <div class="shortcuts">
-      <a href="#experience" class="btn btn-outline">Experience</a>
-      <a href="#shipped" class="btn btn-outline">Shipped Shows</a>
-      <a href="#projects" class="btn btn-outline">Technical Projects</a>
-      <a href="#contact" class="btn btn-outline">Contact</a>
+
+    <div class="quick-jump-chips">
+      <span class="jump-label">Jump to:</span>
+      <a href="#experience" class="chip">Experience</a>
+      <a href="#shipped" class="chip">Shipped Shows & Apps</a>
+      <a href="#projects" class="chip">Engine Plugins</a>
+      <a href="#skills" class="chip">Technical Skills</a>
     </div>
   </div>
 </header>
@@ -36,45 +70,209 @@
 <style>
   .hero {
     max-width: 900px;
-    margin: 120px auto 80px;
+    margin: 80px auto 60px;
     padding: 0 20px;
     animation: fadeIn 0.8s ease-out;
   }
-  h1 { font-size: 4rem; margin: 0; font-weight: 800; letter-spacing: -0.04em; }
-  .title { font-size: 1.5rem; color: var(--text-muted); margin-top: 5px; font-weight: 500; }
-  .impact-statement { font-size: 1.75rem; margin: 60px 0; border-left: 4px solid var(--accent); padding-left: 30px; line-height: 1.4; max-width: 800px; }
-  .expertise-bar { display: flex; gap: 40px; border-top: 1px solid var(--border); padding-top: 30px; margin-bottom: 40px; flex-wrap: wrap; }
-  .expertise-item span { display: block; font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.1em; margin-bottom: 5px; font-weight: 700; }
-  .expertise-item strong { font-size: 1.1rem; }
-  .cta {
-    margin-top: 40px;
+
+  .availability-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(34, 197, 94, 0.1);
+    border: 1px solid rgba(34, 197, 94, 0.3);
+    color: #4ade80;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    letter-spacing: 0.02em;
+  }
+
+  .status-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #22c55e;
+    border-radius: 50%;
+    box-shadow: 0 0 8px #22c55e;
+    animation: pulseDot 2s infinite ease-in-out;
+  }
+
+  @keyframes pulseDot {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.8); }
+  }
+
+  h1 {
+    font-size: 3.75rem;
+    margin: 0;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    line-height: 1.1;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    color: var(--text);
+    margin-top: 8px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  .location-sub {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    margin: 4px 0 0;
+    font-weight: 500;
+  }
+
+  .human-intro {
+    font-size: 1.15rem;
+    line-height: 1.7;
+    margin: 35px 0 40px;
+    color: #d4d4d4;
+    border-left: 3px solid #3b82f6;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .human-intro strong {
+    color: var(--text);
+    font-weight: 700;
+  }
+
+  .recruiter-metrics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-bottom: 40px;
+    padding: 20px 0;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .metric-card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .metric-val {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--text);
+    letter-spacing: -0.02em;
+  }
+
+  .metric-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    letter-spacing: 0.08em;
+    font-weight: 600;
+  }
+
+  .cta-group {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
-  .primary-cta {
+
+  .primary-actions {
     display: flex;
-  }
-  .shortcuts {
-    display: flex;
-    gap: 12px;
+    gap: 14px;
     flex-wrap: wrap;
   }
-  .btn-outline {
-    background: transparent;
-    border: 1px solid var(--border);
-    color: var(--text);
-    padding: 10px 20px;
-    font-size: 0.8rem;
-  }
-  .btn-outline:hover {
-    background: rgba(255, 255, 255, 0.05);
-    border-color: var(--text-muted);
+
+  .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--text);
+    color: var(--bg);
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: var(--transition);
   }
 
-  @media (max-width: 768px) {
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+  }
+
+  .btn-contact {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: var(--transition);
+  }
+
+  .btn-contact:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--text-muted);
+    transform: translateY(-2px);
+  }
+
+  .quick-jump-chips {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+  }
+
+  .jump-label {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .chip {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    transition: var(--transition);
+    font-weight: 500;
+  }
+
+  .chip:hover {
+    color: var(--text);
+    border-color: var(--text-muted);
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  @media (max-width: 850px) {
+    .recruiter-metrics {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+  }
+
+  @media (max-width: 600px) {
     h1 { font-size: 2.5rem; }
-    .impact-statement { font-size: 1.25rem; }
-    .expertise-bar { gap: 20px; }
+    .title { font-size: 1.2rem; }
+    .human-intro { font-size: 1rem; }
+    .primary-actions { flex-direction: column; }
+    .btn-primary, .btn-contact { justify-content: center; width: 100%; }
   }
 </style>

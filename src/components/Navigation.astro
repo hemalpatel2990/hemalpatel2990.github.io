@@ -1,18 +1,35 @@
 ---
 const navItems = [
   { name: "Experience", href: "#experience" },
-  { name: "Shows", href: "#shipped" },
-  { name: "Projects", href: "#projects" },
+  { name: "Shows & Apps", href: "#shipped" },
+  { name: "Plugins", href: "#projects" },
+  { name: "Skills", href: "#skills" },
   { name: "Education", href: "#education" },
   { name: "Contact", href: "#contact" }
 ];
 ---
 <nav class="shortcut-nav">
   <div class="nav-container">
+    <a href="#" class="brand-link" aria-label="Hemal Patel Home">
+      <span class="brand-badge">HP</span>
+      <span class="brand-text">Hemal Patel</span>
+    </a>
+
     <div class="nav-links">
       {navItems.map(item => (
         <a href={item.href} class="nav-link">{item.name}</a>
       ))}
+    </div>
+
+    <div class="nav-actions">
+      <a href="/Hemal-SeniorProgrammer-Resume.pdf" class="resume-nav-btn" download>
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7 10 12 15 17 10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        <span>Resume</span>
+      </a>
     </div>
   </div>
 </nav>
@@ -22,39 +39,120 @@ const navItems = [
     position: sticky;
     top: 0;
     z-index: 100;
-    background: rgba(10, 10, 10, 0.8);
-    backdrop-filter: blur(12px);
+    background: rgba(10, 10, 10, 0.85);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
     border-bottom: 1px solid var(--border);
-    padding: 15px 0;
+    padding: 12px 0;
     animation: fadeIn 0.8s ease-out;
   }
+
   .nav-container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 30px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
   }
+
+  .brand-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--text);
+  }
+
+  .brand-badge {
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(147, 51, 234, 0.2));
+    border: 1px solid rgba(59, 130, 246, 0.4);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: var(--text);
+    letter-spacing: -0.02em;
+  }
+
+  .brand-text {
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: -0.01em;
+  }
+
   .nav-links {
     display: flex;
-    gap: 30px;
+    gap: 24px;
+    align-items: center;
   }
+
   .nav-link {
     color: var(--text-muted);
     text-decoration: none;
-    font-size: 0.85rem;
-    font-weight: 700;
+    font-size: 0.8rem;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.08em;
     transition: var(--transition);
+    padding: 6px 0;
   }
+
   .nav-link:hover {
     color: var(--text);
   }
 
-  @media (max-width: 768px) {
-    .nav-links { gap: 15px; overflow-x: auto; padding-bottom: 5px; width: 100%; justify-content: space-around; }
-    .nav-link { font-size: 0.7rem; white-space: nowrap; }
-    .nav-container { padding: 0 20px; }
+  .nav-actions {
+    display: flex;
+    align-items: center;
+  }
+
+  .resume-nav-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: var(--text);
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: var(--transition);
+  }
+
+  .resume-nav-btn:hover {
+    background: var(--text);
+    color: var(--bg);
+    border-color: var(--text);
+    transform: translateY(-1px);
+  }
+
+  @media (max-width: 900px) {
+    .brand-text { display: none; }
+    .nav-links { gap: 16px; }
+    .nav-link { font-size: 0.72rem; }
+  }
+
+  @media (max-width: 680px) {
+    .shortcut-nav { padding: 10px 0; }
+    .nav-container { padding: 0 16px; }
+    .brand-link { display: none; }
+    .nav-links {
+      gap: 12px;
+      overflow-x: auto;
+      white-space: nowrap;
+      padding-bottom: 2px;
+    }
+    .nav-link { font-size: 0.7rem; }
+    .resume-nav-btn {
+      padding: 5px 10px;
+      font-size: 0.75rem;
+    }
   }
 </style>
