@@ -1,5 +1,5 @@
 ---
-title: "Gameplay Engineer (Freelance)"
+title: "Senior Gameplay Engineer (Freelance)"
 company: "Ludomorphic"
 date: "2026 – Present"
 location: "Remote (Horsham, PA)"
